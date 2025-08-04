@@ -26,7 +26,7 @@ app.use(cors());
 app.use(logger); //loguea cada request
 
 // endpoints
-app.use("/", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Backend funcionando 🚀");
 });
 app.use("/api/products", productRouter);
