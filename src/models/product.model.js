@@ -15,7 +15,7 @@ const productSchema = new mongoose.Schema({
         type: Date,
         default: Date.now()
     }
-});
+}, { collection: "products" });
 
 productSchema.plugin(paginate);
 
