@@ -1,0 +1,2717 @@
+[
+  {
+    "id": 1,
+    "nombre": "Café origen brasil molido lagoa sin tacc",
+    "precio": 9600,
+    "categoria": "Infusiones y café",
+    "stock": 15,
+    "descripcion": "La mejor remera",
+    "cantidad": "250gr",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752612645/D_NQ_NP_2X_683344-MLU77651928393_072024-F_1_dcgzuu.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Café tostada molido italiano lagoa sintacc",
+    "precio": 9600,
+    "categoria": "Infusiones y café",
+    "stock": 15,
+    "descripcion": "Cómodo y versátil",
+    "cantidad": "250gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751224097/-OSKHyY161sB9PjI36ep_ahii7j.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Café tostado en grano Lagoa sin tacc",
+    "precio": 36750,
+    "categoria": "Infusiones y café",
+    "stock": 10,
+    "descripcion": "Ideal para ocasiones formales",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752818186/-OSKHwSGNtLZ7Efn6Ujw_b2zakj.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Cooki de harina integral y avena sabor coco endulzada con miel y stevia",
+    "precio": 7500,
+    "categoria": "Snacks dulces",
+    "stock": 10,
+    "descripcion": "Perfecta para días cálidos",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752818321/-OQ4pW4oJPv-Jv9o4fbO_oop6di.webp"
+  },
+  {
+    "id": 5,
+    "precio": 7500,
+    "categoria": "Snacks dulces",
+    "stock": 20,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223744/-OQ4j6oyySQX1QGlOJ7j_txzfev.webp",
+    "nombre": "Cooki de Harina integral y avena sabor naranja ",
+    "descripcion": "Cooki de Harina integral y avena sabor naranja endulzada con miel y Stevia."
+  },
+  {
+    "id": 6,
+    "categoria": "Snacks dulces",
+    "stock": 18,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223144/-OQ4j513UrsEAXeExrux_pngukr.webp",
+    "precio": 9000,
+    "descripcion": "Cooki de harina de centeno con quinoa pop se arándanos endulzada con miel y Stevia.",
+    "nombre": "Cooki de harina de centeno sabor arándanos."
+  },
+  {
+    "id": 7,
+    "nombre": "Vinagre orgánico de manzana",
+    "precio": 6700,
+    "categoria": "Aceites y vinagres",
+    "stock": 12,
+    "descripcion": "El vinagre orgánico de manzana se puede usar como aderezo para ensaladas, para marinar carnes, o para añadir sabor a diversas recetas. Además, se le atribuyen propiedades para la salud como ayudar a regular los niveles de azúcar en sangre, mejorar la digestión, y posiblemente contribuir a la pérdida de peso. ",
+    "cantidad": "250cc",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752637739/-O7ZKwsqJU8xx8t2fBKJ_fqroq7.webp"
+  },
+  {
+    "id": 8,
+    "nombre": "Aceto Balsámico",
+    "precio": 7500,
+    "categoria": "Aceites y vinagres",
+    "stock": 30,
+    "descripcion": "El aceto balsámico, también conocido como vinagre balsámico, es un tipo de vinagre oscuro con sabor agridulce característico y una textura untuosa.",
+    "cantidad": "250cc",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627424/-O6fIEHx1ecU6DKbCgn1_xx4qf0.webp"
+  },
+  {
+    "id": 9,
+    "nombre": "Mix Seco",
+    "precio": 8750,
+    "categoria": "Frutos Secos",
+    "stock": 40,
+    "cantidad": "1kg",
+    "descripcion": "Almendra, nueces, castaña, maní, pasas de uva negra y pasas de uva rubias.",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752637521/-NO-iMOe-mEU-bHoexHl_1_kugv1x.webp"
+  },
+  {
+    "id": 10,
+    "precio": 9750,
+    "categoria": "Frutos Secos",
+    "stock": 15,
+    "descripcion": "Banana ,ananá ,maní ,nuez y pasas.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919704/-M7ox1bpT2XdjswDguAh_m1nk8j.webp",
+    "nombre": "Mix Tropical"
+  },
+  {
+    "id": 11,
+    "precio": 6750,
+    "categoria": "Snacks salados",
+    "stock": 20,
+    "descripcion": "Maíz frito, maní salado, girasol, maní savorizado,semillas dezapallo, garvanzo horneado.",
+    "cantidad": "1kg",
+    "nombre": "Mix cervecero",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918894/-NO-f3XWihNbRgCFeQbv_yresoy.webp",
+    "new": true
+  },
+  {
+    "id": 12,
+    "nombre": "Mix Cervecero Premium",
+    "precio": 10800,
+    "categoria": "Snacks salados",
+    "stock": 15,
+    "cantidad": "1kg",
+    "descripcion": "Castañas tostadas saladas, maíz frito, garbanzo, semillas de girasol, semillas de zapallo y pistachos tostados salados.",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623691/-OCi4MIi9_D4CT6WRGBX_e1rrc2.webp"
+  },
+  {
+    "id": 13,
+    "nombre": "Mix seco premium",
+    "precio": 14250,
+    "categoria": "Frutos Secos",
+    "stock": 18,
+    "descripcion": "Nuez, almendras, castañas, maní y pasas.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624600/-NO-iMOe-mEU-bHoexHl_gxtkkb.webp"
+  },
+  {
+    "id": 14,
+    "nombre": "Mix tropical premium",
+    "precio": 14250,
+    "categoria": "Frutos Secos",
+    "stock": 10,
+    "cantidad": "1kg",
+    "descripcion": "Almendras, ananá, chips de banana, nueces y pasas. ",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751224374/-OD6y-QKFGyL-UR4iAVv_ixpnsw.webp"
+  },
+  {
+    "id": 15,
+    "nombre": "Mix especial",
+    "precio": 27000,
+    "categoria": "Frutos Secos",
+    "stock": 20,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751222774/-NaHjeo0XNRkldhY8QHL_f1npns.webp",
+    "descripcion": "Nuez, almendra, castaña."
+  },
+  {
+    "id": 16,
+    "nombre": "Mix suizo",
+    "categoria": "Frutos Secos",
+    "stock": 50,
+    "descripcion": "Almendra ,arándano,nuez,coco en escama, rocklets,pasa rubia,maní sin sal,castaña, chip de chocolate",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625964/-NO-iFSJlx3s1fBh2nF1_prmwh6.webp",
+    "precio": 15000
+  },
+  {
+    "id": 17,
+    "nombre": "Mix Sport",
+    "categoria": "Frutos Secos",
+    "stock": 15,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751224714/-M8aBRml24aP1R5Zr4m9_i6cwj1.webp",
+    "descripcion": "Chips de banana , almendras , nueces, girasol, pasas, maní y frutas mixtas.",
+    "precio": 12000
+  },
+  {
+    "id": 18,
+    "nombre": "Mix Desayuno",
+    "precio": 9000,
+    "categoria": "Cereales",
+    "stock": 8,
+    "descripcion": "Anillos de color ,bolitas de chocolate ,arroz inflado,pasa de uva,chip banana ,copos azucarados",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626642/-M8a65HdHTnKg4BIczeS_bxogl1.webp"
+  },
+  {
+    "id": 19,
+    "nombre": "Barritas Energéticas Tropical",
+    "precio": 10500,
+    "categoria": "Snacks dulces",
+    "stock": 25,
+    "descripcion": "Maní,Girasol,Pasas,Banana,Nuez,Ananá,Semillas deChia y Miel.",
+    "cantidad": "14u",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626914/-MPAZWJ5De7iyzzcIOV7_davgwg.webp"
+  },
+  {
+    "id": 21,
+    "nombre": "Barritas Energéticas de Frutos Secos",
+    "precio": 10500,
+    "categoria": "Snacks dulces",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "14u",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626914/-MPAZWJ5De7iyzzcIOV7_davgwg.webp"
+  },
+  {
+    "id": 22,
+    "nombre": "Granola tradicional",
+    "precio": 5400,
+    "categoria": "Granola",
+    "stock": 25,
+    "descripcion": "Avena,Arroz,Copos de Maíz,Mix de Semilla, Miel ,Maní,Coco.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916380/-M7p3kLUebsuBY5Utb8j_sgr6he.webp"
+  },
+  {
+    "id": 23,
+    "nombre": "Granola Tropical",
+    "precio": 8250,
+    "categoria": "Granola",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918121/-Myhh1gfu4wfsz8DJ-UC_nmxuhx.webp",
+    "descripcion": "Avena, copos,  arroz, mix de semillas, ananá, chip de banana, coco y miel."
+  },
+  {
+    "id": 24,
+    "nombre": "Granola Patagonica",
+    "precio": 8250,
+    "categoria": "Granola",
+    "stock": 25,
+    "descripcion": "Avena,Arroz,Copos,Mix de Semillas,Maní,Manzana,Arándanos, Coco en Escamas,Semillas de Zapallo Y Miel.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752817832/-O5o33rfpQL_2azbeGQQ_1_p6n95c.webp"
+  },
+  {
+    "id": 25,
+    "nombre": "Granola Premiun",
+    "categoria": "Granola",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751222548/-Myi25HaT2rRyJxNZlFl_rbelmh.webp",
+    "descripcion": "Avena, miel,  copos, arroz, semillas de lino, semillas de zapallo, maní , almendras ,nueces, castañas.",
+    "precio": 8900
+  },
+  {
+    "id": 26,
+    "nombre": "Chalita Integral de Sesamo y Girasol",
+    "precio": 6300,
+    "categoria": "Snacks salados",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752817930/-MpHNoN6rt8ruu_Y5NkX_eyyvcp.webp"
+  },
+  {
+    "id": 27,
+    "precio": 6300,
+    "categoria": "Snacks salados",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "1kg",
+    "nombre": "Chalita de harina de centeno y semilla de zapallo",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752817985/-Nm5xDbFT2kTgAqLgE4G_hxvsf8.webp"
+  },
+  {
+    "id": 28,
+    "precio": 6000,
+    "categoria": "Snacks salados",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750917530/-MU8U7nuouOwcLxYp8hC_k5umrv.webp",
+    "descripcion": "Chalita de chía",
+    "nombre": "Chalita de chía",
+    "new": true
+  },
+  {
+    "id": 29,
+    "nombre": "Chalita multicereal",
+    "precio": 6000,
+    "categoria": "Snacks salados",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752818040/-MU8TztOrC_sjEcRhD5m_jeydua.webp"
+  },
+  {
+    "id": 30,
+    "nombre": "Chalitas Blancas light",
+    "precio": 6000,
+    "categoria": "Snacks salados",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752818110/-MU8UEqu7wqWFzvdL7YK_e9jlve.webp"
+  },
+  {
+    "id": 31,
+    "nombre": "",
+    "precio": 27000,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "",
+    "img": "",
+    "cantidad": 5
+  },
+  {
+    "id": 32,
+    "nombre": "Naranja glacedas",
+    "precio": 11250,
+    "categoria": "Frutas deshidratadas",
+    "stock": 25,
+    "cantidad": "1kg",
+    "descripcion": "Naranja glacedas",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624882/-ODCAD8J4oWAZDEdwJae_ehcjd7.webp"
+  },
+  {
+    "id": 33,
+    "nombre": "Castañas",
+    "precio": 23000,
+    "categoria": "Frutos Secos",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750917348/-M7p4g1Vq6vwgC8okfl2_m3vmw3.webp",
+    "descripcion": "Castañas de caju"
+  },
+  {
+    "id": 34,
+    "nombre": "Almendra marinada grande",
+    "precio": 22500,
+    "categoria": "Frutos Secos",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624664/-MkwE0GT3PD-2j10pQcQ_ze7c27.webp"
+  },
+  {
+    "id": 35,
+    "nombre": "Nuez",
+    "precio": 23100,
+    "categoria": "Frutos Secos",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624787/-MuXJggOJvK87jSgxjMf_udsnd6.webp"
+  },
+  {
+    "id": 36,
+    "nombre": "Avellanas Pelada Grandes",
+    "precio": 35000,
+    "categoria": "Frutos Secos",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625032/-M8WoxzxQNwmmhIcBgUS_r5b1ui.webp"
+  },
+  {
+    "id": 37,
+    "nombre": "Maní Saborizado",
+    "precio": 5100,
+    "categoria": "Snacks salados",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223607/-M7pJBXYAWLK9oC3Koa3_urew20.webp",
+    "descripcion": "Consultar cual sabor esta disponible. Pizza, jamón, queso, salame y provenzal."
+  },
+  {
+    "id": 38,
+    "nombre": "Maní con Cascara",
+    "precio": 4480,
+    "categoria": "Frutos Secos",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625129/-M7pIbaoUTjMF1UHk8qU_yu5sat.webp"
+  },
+  {
+    "id": 39,
+    "nombre": "Maní Tostado Salado",
+    "precio": 4200,
+    "categoria": "Snacks salados",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751224596/-M7p4SJmgDxGppFejIRM_nkrc3y.webp",
+    "descripcion": "Es una opción deliciosa y satisfactoria para aquellos que disfrutan de sabores salados en sus aperitivos. El maní tostado con sal también ofrece beneficios nutricionales, ya que es una buena fuente de proteínas, fibra y minerales como potasio, magnesio y fósforo. "
+  },
+  {
+    "id": 40,
+    "nombre": "Pistacho Salado con Cascara",
+    "precio": 38700,
+    "categoria": "Snacks salados",
+    "stock": 25,
+    "descripcion": "Los pistachos tostados y salados son un snack popular que combina el sabor tostado y crujiente de los pistachos con el toque salado. Son una buena fuente de nutrientes y se pueden disfrutar como aperitivo o incorporarse en diversas recetas. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625354/-MK1DwdHZ-zqaxurGvbZ_nqwzbs.webp"
+  },
+  {
+    "id": 41,
+    "nombre": "Maíz frito clasico",
+    "precio": 12500,
+    "categoria": "Snacks salados",
+    "stock": 25,
+    "descripcion": "Es un alimento crujiente y sabroso.  Se consume como aperitivo, en picadas o incluso añadido a ensaladas para darles textura.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625447/-Mv-XxL9q-CpfocGDy85_zo17nf.webp"
+  },
+  {
+    "id": 42,
+    "nombre": "Maní sin sal",
+    "precio": 4200,
+    "categoria": "Frutos Secos",
+    "stock": 25,
+    "descripcion": "El maní sin sal es un alimento altamente nutritivo que ofrece varios beneficios para la salud. Es rico en grasas saludables, proteínas, fibra, vitaminas y minerales, y puede ayudar a reducir el colesterol y mejorar la salud cardiovascular. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625520/-MuXEaw_83FuA91M0UIr_bw11bn.webp"
+  },
+  {
+    "id": 43,
+    "nombre": "Pasas de uva rubias",
+    "precio": 8500,
+    "categoria": "Frutas deshidratadas",
+    "stock": 25,
+    "descripcion": "Las pasas rubias, también conocidas como pasas doradas, son uvas blancas deshidratadas que adquieren un color amarillo o dorado ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625587/-M7pCdmHXoMQohd046Rk_evqbbs.webp"
+  },
+  {
+    "id": 44,
+    "nombre": "Pasas de uva Jumbo",
+    "precio": 6750,
+    "categoria": "Frutas deshidratadas",
+    "stock": 25,
+    "descripcion": "Son uvas negras secas, deshidratadas, ya que se dejan a secar hasta que queda un fruto dulce. Se denominan «jumbo» dado que su tamaño es un poco mayor que la sultanina.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625667/-M7pC5ICdI04Bt-_ZqV0_wvhq4p.webp"
+  },
+  {
+    "id": 45,
+    "nombre": "Chip de Banana",
+    "precio": 11700,
+    "categoria": "Frutas deshidratadas",
+    "stock": 25,
+    "descripcion": "Los chips de banana, también conocidos como plátano deshidratado, son un snack crujiente y sabroso hecho al deshidratar rodajas finas de banana. Son una buena fuente de potasio, fibra y vitaminas B y C. Se pueden disfrutar solos como un snack saludable o agregarse a granola o mezclas de frutos secos. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625731/-M7pFyIxMH6K3hkmoMvN_ubojsu.webp"
+  },
+  {
+    "id": 46,
+    "nombre": "Higos",
+    "precio": 15000,
+    "categoria": "Frutas deshidratadas",
+    "stock": 25,
+    "descripcion": "Los higos desecados, también conocidos como higos secos, son higos frescos que han sido sometidos a un proceso de deshidratación para reducir su contenido de agua. Esto permite una mayor concentración de nutrientes y un sabor más dulce y masticable. Los higos secos son una excelente fuente de energía, fibra, potasio, calcio y magnesio. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625793/-M7pE25DSGsrXAgrm7Ap_uvdsqg.webp"
+  },
+  {
+    "id": 47,
+    "nombre": "Ciruelas",
+    "categoria": "Frutas deshidratadas",
+    "stock": 25,
+    "cantidad": "1kg",
+    "new": false,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751222408/-M7pBVi4Mgy9YbZ_b5if_oxsiy6.webp",
+    "descripcion": "Las ciruelas pasas, también llamadas ciruelas desecadas, son ciruelas que han sido deshidratadas para prolongar su vida útil y concentrar sus nutrientes. Son una excelente fuente de fibra, vitaminas y minerales, y ofrecen diversos beneficios para la salud, como ayudar a aliviar el estreñimiento y mejorar la salud ósea.  ",
+    "precio": 9150
+  },
+  {
+    "id": 48,
+    "nombre": "Mix de frutas disecadas",
+    "precio": 14400,
+    "categoria": "Frutas deshidratadas",
+    "stock": 25,
+    "descripcion": "Durazno, pera, damasco y ciruelas.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625872/-M7osHDzlz7btwJo__W6_xsrq8k.webp"
+  },
+  {
+    "id": 49,
+    "nombre": "Sésamo Blanco",
+    "precio": 9200,
+    "categoria": "Semillas",
+    "stock": 25,
+    "descripcion": "El sésamo blanco es conocido por su sabor a nuez, y por sus propiedades nutricionales, incluyendo grasas saludables, proteínas, fibra, y vitaminas y minerales como calcio, hierro, magnesio y zinc",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626038/-M7p8Vnvotd5RzMzgZfJ_ycllhr.webp"
+  },
+  {
+    "id": 50,
+    "nombre": "Semilla Girasol Pelado",
+    "categoria": "Semillas",
+    "stock": 25,
+    "cantidad": 1,
+    "descripcion": "Ayudan a proteger las células del cuerpo, contribuyen a la salud ósea y muscular, pueden ayudar a reducir el colesterol malo, favorecen la salud de la piel y pueden ayudar a prevenir enfermedades inflamatorias. ",
+    "precio": 3700,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918683/descarga_1_1_oqhv6r.webp"
+  },
+  {
+    "id": 51,
+    "nombre": "Mix de Semillaa",
+    "categoria": "Semillas",
+    "stock": 25,
+    "descripcion": "lino chía sésamo girasol",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916078/mix-semillas_bgyab4.webp",
+    "precio": 4500
+  },
+  {
+    "id": 52,
+    "nombre": "Sesamo Integral",
+    "precio": 4800,
+    "categoria": "Semillas",
+    "stock": 25,
+    "descripcion": "El sésamo integral es una semilla con la cáscara que conserva sus propiedades nutricionales superiores en comparación con el sésamo blanco.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626141/descarga_1_6_souj6f.webp"
+  },
+  {
+    "id": 53,
+    "nombre": "Semilla Lino",
+    "precio": 2700,
+    "categoria": "Semillas",
+    "stock": 25,
+    "descripcion": "Las semillas de linaza contienen fibra, vitaminas, minerales, proteínas, grasas vegetales saludables y antioxidantes que ayudan a prevenir el daño celular.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626210/descarga_1_7_utbnxx.webp"
+  },
+  {
+    "id": 54,
+    "nombre": "Coco Rallado Premium",
+    "categoria": "Repostería e ingredientes",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223487/-M7reH6BILwXTvHIXaEr_ddauea.webp",
+    "descripcion": "El coco rallado es un alimento con diversas propiedades nutricionales y beneficios para la salud. Es rico en fibra, grasas saludables, vitaminas y minerales. También es una buena fuente de energía y puede ayudar a mejorar la digestión y la salud cardiovascular. ",
+    "precio": 10000
+  },
+  {
+    "id": 55,
+    "nombre": "Cacao Amargo primera calidad",
+    "precio": 20250,
+    "categoria": "Repostería e ingredientes",
+    "stock": 25,
+    "descripcion": "El cacao amargo en polvo ofrece múltiples beneficios para la salud, principalmente gracias a su riqueza en antioxidantes, flavonoides y compuestos bioactivos. Estos componentes pueden ayudar a mejorar la salud cardiovascular, reducir la inflamación, mejorar la función cerebral y el estado de ánimo, entre otros beneficios. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626281/-ManIPb3lJZB6icHTnFA_bxcgfg.webp"
+  },
+  {
+    "id": 56,
+    "nombre": "Azúcar Impalpable",
+    "precio": 2500,
+    "categoria": "Repostería e ingredientes",
+    "stock": 25,
+    "descripcion": "El azúcar impalpable, también conocido como azúcar glas o azúcar en polvo, ofrece beneficios principalmente en la repostería y la decoración de postres, debido a su finura y textura suave.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626366/descarga_1_8_j9xuvv.webp"
+  },
+  {
+    "id": 57,
+    "nombre": "Azúcar Mascabo",
+    "categoria": "Repostería e ingredientes",
+    "stock": 25,
+    "cantidad": "1kg",
+    "descripcion": "Es un tipo de azúcar de caña sin refinar o ligeramente refinado. Se caracteriza por su color marrón oscuro, textura pegajosa y sabor a caramelo. A diferencia del azúcar blanca refinada, el azúcar mascabo conserva algunos nutrientes de la caña de azúcar, como antioxidantes y minerales, aunque en cantidades pequeñas. ",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919853/descarga_1_4_nzkznz.webp",
+    "precio": 3750
+  },
+  {
+    "id": 58,
+    "nombre": "goma xantica",
+    "categoria": "Repostería e ingredientes",
+    "stock": 25,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751224461/-OANXofhq187PDMU0z_R_box6ry.webp",
+    "descripcion": "La goma xántica, también conocida como xantana, es un polisacárido natural que se utiliza comúnmente como aditivo alimentario para espesar, estabilizar y mejorar la textura de diversos productos.",
+    "cantidad": "100gr",
+    "precio": 3000
+  },
+  {
+    "id": 59,
+    "nombre": "Sal rosada del Himalaya",
+    "precio": 3900,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "La sal rosa del Himalaya se promociona por diversos beneficios para la salud, como la regulación de la presión arterial, la prevención de calambres y migrañas, la mejora del sueño y la fortaleza ósea.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626482/-MK17-AsFxR2OarTMCba_hebroe.webp"
+  },
+  {
+    "id": 60,
+    "nombre": "Bicarbonato de Sodio",
+    "precio": 4000,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "El bicarbonato de sodio tiene varios beneficios para la salud, incluyendo aliviar la acidez estomacal, reducir la acidez de la orina, y actuar como un exfoliante natural para la piel. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626525/-NDT91nB8PPv9DyAgyKA_wma2ed.webp"
+  },
+  {
+    "id": 61,
+    "nombre": "polvo de hornear primera calidad",
+    "precio": 12600,
+    "categoria": "Repostería e ingredientes",
+    "stock": 25,
+    "descripcion": "El polvo de hornear, también conocido como levadura química, es un agente leudante que se utiliza en repostería para hacer que las masas y mezclas se eleven y se vuelvan esponjosas.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626689/-NZRlCIVi3La4iERsnWW_iqqfui.webp"
+  },
+  {
+    "id": 62,
+    "nombre": "Avena instantánea",
+    "precio": 2520,
+    "categoria": "Cereales",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919215/-MuuPwdZtww_92LXUQnK_ciu591.webp",
+    "descripcion": "La avena ofrece varios beneficios para la salud, incluyendo la regulación del colesterol y el azúcar en sangre, ayuda a controlar el apetito y puede ser beneficiosa para la salud digestiva. También es rica en nutrientes esenciales y antioxidantes."
+  },
+  {
+    "id": 63,
+    "nombre": "Soja texturizada",
+    "precio": 3000,
+    "categoria": "Proteinas vegetales",
+    "stock": 25,
+    "descripcion": "La soja texturizada ofrece numerosos beneficios, destacando su alto contenido de proteínas, fibra, y su versatilidad en la cocina. Es una excelente opción para personas veganas, vegetarianas, y deportistas, ya que puede ayudar a cubrir necesidades proteicas y de otros nutrientes esenciales como hierro y calcio.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750917951/-MEDebl-TPboT10ULW1u_iukpj2.webp"
+  },
+  {
+    "id": 64,
+    "nombre": "Sal marina",
+    "categoria": "Condimentos",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916989/descarga_1_fqdpee.webp",
+    "descripcion": "La sal marina es una opción natural para condimentar los alimentos, con un perfil de sabor y minerales que la diferencian de la sal de mesa, pero se debe consumir con precaución. ",
+    "precio": 4950
+  },
+  {
+    "id": 65,
+    "nombre": "Ajo en polvo",
+    "precio": 10350,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "El ajo en polvo, derivado del ajo deshidratado y molido, conserva muchas de las propiedades del ajo fresco, aunque con algunas diferencias en su composición nutricional. Entre sus beneficios se destacan sus propiedades antioxidantes, cardioprotectoras y su capacidad para mejorar la circulación sanguínea.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626833/-O-Hunye7BIMwrOzLWh5_offyfr.webp"
+  },
+  {
+    "id": 66,
+    "nombre": "Ajo granulado",
+    "categoria": "Condimentos",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223310/-O-HugmLgqCPixgXAQuK_gvptrw.webp",
+    "descripcion": "El ajo Granulado ofrece una alternativa conveniente y duradera al ajo fresco, con beneficios para la salud como el fortalecimiento del sistema inmunológico, propiedades antioxidantes y un posible impacto positivo en la salud cardiovascular.",
+    "precio": 13750
+  },
+  {
+    "id": 67,
+    "nombre": "Romero",
+    "precio": 16240,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "Romero es conocido por sus propiedades antioxidantes, antiinflamatorias, estimulantes circulatorias y antisépticas, entre otras. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752817671/-O-Huc-1Yy64zGsYMcRb_eh0ife.webp"
+  },
+  {
+    "id": 68,
+    "nombre": "Tomillo",
+    "categoria": "Condimentos",
+    "stock": 25,
+    "cantidad": "1kg",
+    "descripcion": "Por su aroma y sabor, es muy apreciado para condimentar potajes, carnes, salsas y verduras. También tiene propiedades antisépticas que facilitan la conservación de los alimentos. Tomado en infusión, ayuda en las enfermedades de las vías respiratorias por sus cualidades antinflamatorias.",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918805/descarga_1_2_k0mmhw.webp",
+    "precio": 14700,
+    "new": false
+  },
+  {
+    "id": 69,
+    "nombre": "Oregano",
+    "precio": 10350,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "El orégano posee múltiples propiedades beneficiosas para la salud, destacando sus efectos antibacterianos, antioxidantes y antiinflamatorios. También se le atribuyen propiedades digestivas, expectorantes y beneficios para el sistema óseo. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626965/-NXQ0zEBejN3xPSi8XUv_h2oley.webp"
+  },
+  {
+    "id": 70,
+    "nombre": "Pimienta Blanca Molida",
+    "precio": 23000,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "La pimienta blanca molida es una especia versátil con propiedades que benefician la salud digestiva y pueden ayudar a combatir enfermedades. Entre sus beneficios se encuentran su capacidad para estimular la producción de jugos gástricos, lo que facilita la digestión y alivia problemas como gases e hinchazón.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627036/-NSGan8C-hy__6CO0Yw__apsscy.webp"
+  },
+  {
+    "id": 71,
+    "nombre": "Pimienta Negra molida",
+    "precio": 16000,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919385/-NSGkBTMaDjCj0NeuzIA_oyapdn.webp",
+    "descripcion": "La pimienta negra molida posee numerosas propiedades beneficiosas para la salud, incluyendo propiedades antioxidantes, antiinflamatorias y digestivas. Además, puede ayudar a mejorar la absorción de nutrientes, regular los niveles de azúcar en sangre y promover la pérdida de peso. "
+  },
+  {
+    "id": 72,
+    "nombre": "Curcuma",
+    "precio": 16000,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918388/-NSGapXWnDvDfQ4KYYQq_sqsyhl.webp",
+    "descripcion": "ELa cúrcuma es una especia con numerosas propiedades beneficiosas para la salud, principalmente debido a la curcumina, un compuesto con potentes efectos antiinflamatorios y antioxidantes. Además de sus propiedades antiinflamatorias, la cúrcuma puede ayudar a la digestión, proteger contra enfermedades cardíacas, mejorar la función cerebral y tener efectos positivos en el estado de ánimo."
+  },
+  {
+    "id": 73,
+    "nombre": "pimenton",
+    "precio": 9500,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "El pimentón ofrece diversos beneficios para la salud gracias a su riqueza en vitaminas y antioxidantes. Es conocido por su alto contenido en vitamina C, vitamina A, vitamina E, y minerales como el potasio, calcio y fósforo. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627140/-NWhDcBsKSpW6xXou5Vi_bhrwfw.webp"
+  },
+  {
+    "id": 74,
+    "nombre": "Provenzal",
+    "categoria": "Condimentos",
+    "stock": 25,
+    "cantidad": "1kg",
+    "descripcion": "Se utiliza para sazonar carnes, pescados, verduras y otros platos. ",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750917802/descarga_1_w4azkb.webp",
+    "precio": 6900
+  },
+  {
+    "id": 75,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "cantidad": "400gr",
+    "nombre": "Clavo de olor pedúnculo",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916724/-O-HuT0jkc9Rn2CZbcvN_zl91an.webp",
+    "descripcion": "El clavo de olor pedúnculo es una especia versátil con usos culinarios y medicinales, ofreciendo beneficios como propiedades analgésicas, antibacterianas y estimulantes.",
+    "precio": 8460
+  },
+  {
+    "id": 76,
+    "nombre": "Canela Quebrada",
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "La canela en rama, además de su aroma y sabor característicos, ofrece varios beneficios para la salud. Entre ellos, se destacan sus propiedades digestivas, antioxidantes, antiinflamatorias y antimicrobianas, además de su potencial efecto positivo en la regulación del azúcar en sangre y la salud cardiovascular. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916547/-O-HuRVg6hPb4ZR8nS0S_kvbsee.webp",
+    "precio": 18000
+  },
+  {
+    "id": 77,
+    "nombre": "Canela en polvo",
+    "precio": 18750,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "La canela en polvo ofrece una variedad de beneficios para la salud, incluyendo la mejora de la digestión, la regulación del azúcar en sangre y la promoción de la salud cardiovascular. También tiene propiedades antioxidantes y antiinflamatorias, y puede ayudar a mejorar la función cognitiva. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627249/canela-de-ceylan-molida-25g4-a6bc9b335bfc5da47615716231335931-1024-10241-1dfcf96b7938529a1f16514585083613-640-0_i9ptgd.webp"
+  },
+  {
+    "id": 78,
+    "nombre": "Ají Molido",
+    "categoria": "Condimentos",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223845/-NSGak8OsP-M9IHLHOzw_bhcbex.webp",
+    "descripcion": "El ají molido, una especia en polvo hecha de chiles secos, ofrece varios beneficios para la salud debido a sus compuestos activos. Es rico en vitamina C y antioxidantes, que ayudan a proteger las células del daño oxidativo. Además, contiene capsaicina, conocida por sus propiedades antiinflamatorias, analgésicas y su potencial para aumentar el metabolismo y favorecer la pérdida de peso.",
+    "precio": 10350
+  },
+  {
+    "id": 79,
+    "nombre": "Curry picante",
+    "precio": 18000,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "El curry ofrece varios beneficios para la salud debido a su combinación de especias, incluyendo propiedades antioxidantes, antiinflamatorias, y digestivas. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627361/-O-HuKv5yuGd0aiXwogE_jvzdjj.webp"
+  },
+  {
+    "id": 80,
+    "nombre": "Condimento para pizza",
+    "precio": 7950,
+    "categoria": "Condimentos",
+    "stock": 25,
+    "descripcion": "Condimento para pizza.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627480/-O-HuIjTYlKMDOTWFCp__mjiwjm.webp"
+  },
+  {
+    "id": 81,
+    "nombre": "Tónico Herbal",
+    "categoria": "Varios",
+    "stock": 25,
+    "cantidad": 1,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919566/-ODnWY8xXDvKQbB1TATN_ttfdfl.webp",
+    "descripcion": "Raíz de Valeriana: tradicionalmente utilizada para calmar el sistema nervioso, acompañar procesos de insomnio y reducir la ansiedad.",
+    "precio": 40000
+  },
+  {
+    "id": 82,
+    "nombre": "Hongo Adaptógeno Reishi Sintropia Traslasierra.",
+    "categoria": "Varios",
+    "stock": 25,
+    "descripcion": "Fortalece el sistema inmunológico Mejora la calidad del sueño Antiflamatorio Hepatoprotector Adaptógeno Antioxidante.",
+    "cantidad": 1,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751224267/-ODgu7Whjd_2ZZerpfxf_wlcxyb.webp",
+    "precio": 36000
+  },
+  {
+    "id": 83,
+    "nombre": "Hongo Adaptógeno Cordyceps Sintropia Traslasierra.",
+    "categoria": "Varios",
+    "stock": 25,
+    "descripcion": "Aumenta la resistencia física Proporciona energía y combate la fatiga Antiinflamatorio Mejora la salud cardiovascular.Antioxidante.Adaptogeno.",
+    "cantidad": 1,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751224002/-ODgszrXQiKFSDK_yTpm_vyqscu.webp",
+    "precio": 36000
+  },
+  {
+    "id": 84,
+    "nombre": "Hongo Adaptógeno Melena de León Sintropia TRASLASIERRA.",
+    "categoria": "Varios",
+    "stock": 25,
+    "descripcion": "Mejora la función cognitiva. Fortalece el sistema inmunológico.Probiótico.Promueve la neurogénesis.Antiflamatorio.Adaptógeno.",
+    "cantidad": 1,
+    "precio": 36000,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752868324/-ODgr6bC7jlHtOHcLuek_yupknp.webp"
+  },
+  {
+    "id": 85,
+    "nombre": "Equinacea",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": 1,
+    "descripcion": "La Tintura de Equinácea es un extracto hidroalcohólico concentrado, ideal para fortalecer el sistema inmunológico y prevenir infecciones. Es un aliado natural frente a gripes, resfriados y procesos inflamatorios leves, contribuyendo al bienestar integral.",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919057/descarga_1_3_tgddom.webp",
+    "precio": 25000,
+    "new": true
+  },
+  {
+    "id": 86,
+    "nombre": "Fusilli de arroz integral",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": 250,
+    "descripcion": "Pasta seca de harina de arroz integral, almidón de maíz y harina de maíz libre de gluten. ",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750917214/-OHcYwq-It22e0HXLAwv_uga4l2.webp",
+    "precio": 3150,
+    "new": true
+  },
+  {
+    "id": 87,
+    "nombre": "Fusilli de trigo sarraceno integral sintacc",
+    "precio": 15000,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": 250,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752637662/-OHcYSmQC8uRP4ObIbyS_wk9ihx.webp"
+  },
+  {
+    "id": 88,
+    "nombre": "Aceite de coco Neutro  EntreNut x200cc",
+    "precio": 4500,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Aceite de coco Neutro x 200cc",
+    "cantidad": "200cc",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752637572/-NvqEzPWq00U5mZdljAZ_ai6s7l.webp"
+  },
+  {
+    "id": 89,
+    "nombre": "Dulce de leche proteico endulzado constevia",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919297/-OLFkElsABwPo7l3RF4w_x4leui.webp",
+    "descripcion": "Dulce de leche.",
+    "precio": 8100
+  },
+  {
+    "id": 90,
+    "nombre": "Aceite de coco Neutro EntreNut x360cc ",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "360cc",
+    "descripcion": "Aceite de coco Neutro x 360cc.",
+    "precio": 6750,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752637438/-NvqEwFoh2-X71dkNOmI_ymh4gy.jpg"
+  },
+  {
+    "id": 91,
+    "nombre": "Aceite de coco Virgen EntreNut x200cc ",
+    "precio": 8400,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Aceite de coco Virgen x 200cc.",
+    "cantidad": "200cc",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752637333/-NvqEt9T4Kjuz0F9JBOL_b4xem1.webp"
+  },
+  {
+    "id": 92,
+    "nombre": "Salsa a base de soja Sante",
+    "precio": 5800,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La salsa de soja ofrece varios beneficios para la salud, incluyendo su capacidad antioxidante, su bajo contenido en grasas y su potencial para mejorar la salud ósea y reducir el colesterol. Además, es una fuente de vitaminas y minerales como hierro, calcio, potasio y zinc.",
+    "cantidad": "1 litro",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752637276/-O5NpE6UopA2pJexkDOT_iyj0sd.webp"
+  },
+  {
+    "id": 93,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919456/-N42pQ_mBHAoIEAWcZK6_i1zowj.webp",
+    "nombre": "Maní con chocolate premium",
+    "descripcion": "Maní con chocolate premium es una deliciosa combinación de maníes seleccionados cubiertos con chocolate de alta calidad",
+    "precio": 26650,
+    "new": false
+  },
+  {
+    "id": 94,
+    "nombre": "Almendras con chocolate",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918264/-N42ovwCe_nHoBovWjR5_zve4g6.webp",
+    "descripcion": " La almendra con chocolate negro es una almendra de primera calidad cubierta de un exquisito chocolate negro.",
+    "precio": 39000
+  },
+  {
+    "id": 95,
+    "nombre": "almendra con chocolate blanco",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751224837/-NWhCV5Y-M0Yk0qe3FT4_xubboq.webp",
+    "descripcion": "La almendra con chocolate blanco es una almendra de primera calidad cubierta de un exquisito chocolate blanco.",
+    "precio": 39000
+  },
+  {
+    "id": 96,
+    "nombre": "Pasas de uva con chocolate.",
+    "precio": 31700,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Las pasas con chocolate combinan los beneficios de las uvas pasas con las propiedades antioxidantes del chocolate. Las pasas son ricas en fibra, potasio, hierro y antioxidantes, mientras que el chocolate, especialmente el negro, también aporta antioxidantes y puede mejorar la circulación. Juntos, ofrecen una opción de snack con un aporte nutricional interesante y un sabor agradable. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627577/-N42lX8QARzIYClkqCR3_ckg9wz.webp"
+  },
+  {
+    "id": 97,
+    "nombre": "ACEITE OLIVA VIRGEN EXTRA PRIMERPRENSADO",
+    "precio": 25000,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El aceite de oliva virgen extra de primera prensada se refiere al aceite que se obtiene mediante un proceso de extracción mecánico en frío, donde las aceitunas son molidas y prensadas una sola vez, y la temperatura no supera los 27ºC. Este método preserva mejor las cualidades organolépticas y nutricionales del fruto, resultando en un aceite de alta calidad con un sabor y aroma intensos. ",
+    "cantidad": "2 litros",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752637184/-O6fIZalChyR5m9Yr65V_jnya44.webp"
+  },
+  {
+    "id": 98,
+    "nombre": "Mix Seco",
+    "precio": 1100,
+    "categoria": "accesorios",
+    "stock": 40,
+    "cantidad": "100gr",
+    "descripcion": "Almendra, nueces, castaña, maní, pasas de uva negra y pasas de uva rubia.",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752637073/images_2_vt1x9b.webp"
+  },
+  {
+    "id": 99,
+    "nombre": "Mix Seco",
+    "precio": 4150,
+    "categoria": "accesorios",
+    "stock": 40,
+    "descripcion": "Almendra ,nueces castaña .maní .pasa negra pasa rubia",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752637073/images_2_vt1x9b.webp"
+  },
+  {
+    "id": 100,
+    "precio": 1170,
+    "categoria": "accesorios",
+    "stock": 15,
+    "descripcion": "Banana ,ananá ,maní ,nuez y pasas.",
+    "cantidad": "100g",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752613271/mix-tropical-1-025b89d2dcb7ac3bd116982668211505-640-0_vzwdco.webp",
+    "nombre": "Mix Tropical"
+  },
+  {
+    "id": 101,
+    "nombre": "Mix Tropical",
+    "precio": 4420,
+    "categoria": "accesorios",
+    "stock": 15,
+    "descripcion": "Banana ,ananá ,maní ,nuez y pasas.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752613271/mix-tropical-1-025b89d2dcb7ac3bd116982668211505-640-0_vzwdco.webp"
+  },
+  {
+    "id": 102,
+    "precio": 810,
+    "categoria": "indumentaria",
+    "stock": 20,
+    "descripcion": "Maíz frito, maní salado, girasol, maní savorizado,semillas dezapallo, garvanzo horneado.",
+    "cantidad": "100gr",
+    "nombre": "Mix cervecero",
+    "new": true,
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752614145/D_NQ_NP_686530-MLA85298977042_062025-O_1_txzofb.webp"
+  },
+  {
+    "id": 103,
+    "precio": 3060,
+    "categoria": "indumentaria",
+    "stock": 20,
+    "descripcion": "Maíz frito, maní salado, girasol, maní savorizado,semillas dezapallo, garvanzo horneado.",
+    "cantidad": "400gr",
+    "nombre": "Mix cervecero",
+    "new": false,
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752614145/D_NQ_NP_686530-MLA85298977042_062025-O_1_txzofb.webp"
+  },
+  {
+    "id": 104,
+    "nombre": "Mix Cervecero Premium",
+    "precio": 1295,
+    "categoria": "indumentaria",
+    "stock": 15,
+    "descripcion": "castañas tostadas saladas. maiz frito . garvanzo .semillasgirasol .y semillas de zapallo pistachos tostados salados",
+    "cantidad": "100g",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752614435/images_eoz1os.webp"
+  },
+  {
+    "id": 105,
+    "nombre": "Mix Cervecero Premium",
+    "precio": 3060,
+    "categoria": "indumentaria",
+    "stock": 15,
+    "descripcion": "castañas tostadas saladas. maiz frito . garvanzo .semillasgirasol .y semillas de zapallo pistachos tostados salados",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752614435/images_eoz1os.webp"
+  },
+  {
+    "id": 106,
+    "precio": 1710,
+    "categoria": "indumentaria",
+    "stock": 18,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752614700/images_1_hhqdbk.webp",
+    "nombre": "Mix seco premium",
+    "descripcion": "Nuez, almendras, castañas, maní y pasas."
+  },
+  {
+    "id": 107,
+    "precio": 6460,
+    "categoria": "indumentaria",
+    "stock": 18,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752614700/images_1_hhqdbk.webp",
+    "descripcion": "Nuez, almendras, castañas, maní y pasas.",
+    "nombre": "Mix seco premium"
+  },
+  {
+    "id": 108,
+    "nombre": "Mix tropical premium",
+    "precio": 1710,
+    "categoria": "calzado",
+    "stock": 10,
+    "cantidad": "100g",
+    "descripcion": "Almendras, ananá, chips de banana, nueces y pasas. ",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752615039/mix-tropical1-1d4c08799e65f4cc1315676501938832-1024-1024_netvqu.webp"
+  },
+  {
+    "id": 109,
+    "nombre": "Mix tropical premium",
+    "precio": 6460,
+    "categoria": "calzado",
+    "stock": 10,
+    "cantidad": "400gr",
+    "descripcion": "Almendras, ananá, chips de banana, nueces y pasas. ",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752615039/mix-tropical1-1d4c08799e65f4cc1315676501938832-1024-1024_netvqu.webp"
+  },
+  {
+    "id": 110,
+    "nombre": "Mix especial",
+    "precio": 3240,
+    "categoria": "calzado",
+    "stock": 20,
+    "cantidad": "100gr",
+    "descripcion": "Nuez, almendra, castaña.",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752615367/D_NQ_NP_791169-MLA87006241979_062025-O_1_cf5zbt.webp"
+  },
+  {
+    "id": 111,
+    "nombre": "Mix especial",
+    "precio": 12240,
+    "categoria": "calzado",
+    "stock": 20,
+    "descripcion": "Nuez, almendra, castaña.",
+    "img": "https://res.cloudinary.com/dzllruvo9/image/upload/v1752615367/D_NQ_NP_791169-MLA87006241979_062025-O_1_cf5zbt.webp",
+    "cantidad": "400gr"
+  },
+  {
+    "id": 112,
+    "nombre": "Mix suizo",
+    "precio": 1800,
+    "categoria": "indumentaria",
+    "stock": 50,
+    "descripcion": "Almendra ,arándano,nuez,coco en escama, rocklets,pasa rubia,maní sin sal,castaña, chip de chocolate",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623014/images_p0lkas.webp"
+  },
+  {
+    "id": 113,
+    "nombre": "Mix suizo",
+    "precio": 6800,
+    "categoria": "indumentaria",
+    "stock": 50,
+    "descripcion": "Almendra ,arándano,nuez,coco en escama, rocklets,pasa rubia,maní sin sal,castaña, chip de chocolate",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623014/images_p0lkas.webp"
+  },
+  {
+    "id": 114,
+    "nombre": "Mix Sport",
+    "categoria": "indumentaria",
+    "stock": 15,
+    "cantidad": "100gr",
+    "descripcion": "Chips de banana , almendras , nueces, girasol, pasas, maní y frutas mixtas.",
+    "precio": 1440,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623094/-M8aBRml24aP1R5Zr4m9_gmogsv.webp"
+  },
+  {
+    "id": 115,
+    "nombre": "Mix Sport",
+    "categoria": "indumentaria",
+    "stock": 15,
+    "cantidad": "400gr",
+    "descripcion": "Chips de banana , almendras , nueces, girasol, pasas, maní y frutas mixtas.",
+    "precio": 5440,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623094/-M8aBRml24aP1R5Zr4m9_gmogsv.webp"
+  },
+  {
+    "id": 116,
+    "nombre": "Mix Desayuno",
+    "precio": 1080,
+    "categoria": "indumentaria",
+    "stock": 8,
+    "descripcion": "Anillos de color ,bolitas de chocolate ,arroz inflado,pasa de uva,chip banana ,copos azucarados",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623335/images_1_z6mlpx.webp"
+  },
+  {
+    "id": 117,
+    "nombre": "Mix Desayuno",
+    "precio": 4080,
+    "categoria": "indumentaria",
+    "stock": 8,
+    "descripcion": "Anillos de color ,bolitas de chocolate ,arroz inflado,pasa de uva,chip banana ,copos azucarados",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623335/images_1_z6mlpx.webp"
+  },
+  {
+    "id": 118,
+    "nombre": "Granola tradicional",
+    "precio": 650,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Avena,Arroz,Copos de Maíz,Mix de Semilla, Miel ,Maní,Coco.",
+    "cantidad": "100g",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623524/-O5o2jOUFs0i0U_TfCUz_pfm0lu.webp"
+  },
+  {
+    "id": 119,
+    "nombre": "Granola tradicional",
+    "precio": 2450,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Avena,Arroz,Copos de Maíz,Mix de Semilla, Miel ,Maní,Coco.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623524/-O5o2jOUFs0i0U_TfCUz_pfm0lu.webp"
+  },
+  {
+    "id": 120,
+    "nombre": "Granola Tropical",
+    "precio": 1080,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "descripcion": "Avena, copos,  arroz, mix de semillas, ananá, chip de banana, coco y miel.",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623810/371_smnyuw.webp"
+  },
+  {
+    "id": 121,
+    "nombre": "Granola Tropical",
+    "precio": 4080,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "descripcion": "Avena, copos,  arroz, mix de semillas, ananá, chip de banana, coco y miel.",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752623810/371_smnyuw.webp"
+  },
+  {
+    "id": 122,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100cm3",
+    "nombre": "Extracto de vainilla El Castillo",
+    "descripcion": "El extracto de vainilla es un líquido aromático utilizado en la cocina para añadir sabor a vainilla a diversos postres y preparaciones.",
+    "precio": 7900,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624251/-NYc1I9feG3mY09RWVrD_h7repx.webp"
+  },
+  {
+    "id": 123,
+    "nombre": "Granola con pasas",
+    "precio": 650,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Avena,Arroz,Copos de Maíz,Mix de Semilla, Miel ,Maní,Coco.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751222905/-NV-xq7QbM6zzNASOF_R_ohj6x2.webp"
+  },
+  {
+    "id": 124,
+    "nombre": "Granola con pasas",
+    "precio": 5400,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Avena,Arroz,Copos de Maíz,Mix de Semilla, Miel ,Maní,Coco.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751222905/-NV-xq7QbM6zzNASOF_R_ohj6x2.webp"
+  },
+  {
+    "id": 125,
+    "nombre": "Granola Patagonica",
+    "precio": 1080,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Avena,Arroz,Copos,Mix de Semillas,Maní,Manzana,Arándanos, Coco en Escamas,Semillas de Zapallo Y Miel.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624398/-O5o33rfpQL_2azbeGQQ_nafbia.webp"
+  },
+  {
+    "id": 126,
+    "nombre": "Granola Patagonica",
+    "precio": 4080,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Avena,Arroz,Copos,Mix de Semillas,Maní,Manzana,Arándanos, Coco en Escamas,Semillas de Zapallo Y Miel.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624398/-O5o33rfpQL_2azbeGQQ_nafbia.webp"
+  },
+  {
+    "id": 127,
+    "nombre": "Granola Premiun",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751222548/-Myi25HaT2rRyJxNZlFl_rbelmh.webp",
+    "descripcion": "Avena, miel,  copos, arroz, semillas de lino, semillas de zapallo, maní , almendras ,nueces, castañas.",
+    "precio": 1170
+  },
+  {
+    "id": 128,
+    "nombre": "Granola Premiun",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751222548/-Myi25HaT2rRyJxNZlFl_rbelmh.webp",
+    "descripcion": "Avena, miel,  copos, arroz, semillas de lino, semillas de zapallo, maní , almendras ,nueces, castañas.",
+    "precio": 4420
+  },
+  {
+    "id": 129,
+    "nombre": "Castañas",
+    "precio": 2550,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "descripcion": "Castañas de caju",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624522/-M7p4g1Vq6vwgC8okfl2_ui2hgi.webp"
+  },
+  {
+    "id": 130,
+    "nombre": "Castañas",
+    "precio": 9800,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "descripcion": "Castañas de caju",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624522/-M7p4g1Vq6vwgC8okfl2_ui2hgi.webp"
+  },
+  {
+    "id": 131,
+    "nombre": "Almendra marinada grande",
+    "precio": 2650,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624664/-MkwE0GT3PD-2j10pQcQ_ze7c27.webp"
+  },
+  {
+    "id": 132,
+    "nombre": "Almendra marinada grande",
+    "precio": 9500,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624664/-MkwE0GT3PD-2j10pQcQ_ze7c27.webp"
+  },
+  {
+    "id": 133,
+    "nombre": "Nuez",
+    "precio": 2800,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624787/-MuXJggOJvK87jSgxjMf_udsnd6.webp"
+  },
+  {
+    "id": 134,
+    "nombre": "Nuez",
+    "precio": 10164,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624787/-MuXJggOJvK87jSgxjMf_udsnd6.webp"
+  },
+  {
+    "id": 135,
+    "nombre": "Naranja glacedas",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "descripcion": "Naranja glacedas",
+    "precio": 5400,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752624882/-ODCAD8J4oWAZDEdwJae_ehcjd7.webp"
+  },
+  {
+    "id": 136,
+    "nombre": "Avellanas Pelada Grandes",
+    "precio": 3800,
+    "categoria": "indumentaria",
+    "stock": 15,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625032/-M8WoxzxQNwmmhIcBgUS_r5b1ui.webp"
+  },
+  {
+    "id": 137,
+    "nombre": "Avellanas Pelada Grandes",
+    "precio": 15444,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625032/-M8WoxzxQNwmmhIcBgUS_r5b1ui.webp"
+  },
+  {
+    "id": 138,
+    "nombre": "Maní Saborizado",
+    "precio": 565,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223607/-M7pJBXYAWLK9oC3Koa3_urew20.webp",
+    "descripcion": "Consultar cual sabor esta disponible. Pizza, jamón, queso, salame y provenzal."
+  },
+  {
+    "id": 139,
+    "nombre": "Maní Saborizado",
+    "precio": 2245,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223607/-M7pJBXYAWLK9oC3Koa3_urew20.webp",
+    "descripcion": "Consultar cual sabor esta disponible. Pizza, jamón, queso, salame y provenzal."
+  },
+  {
+    "id": 140,
+    "nombre": "Maní con Cascara",
+    "precio": 670,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625129/-M7pIbaoUTjMF1UHk8qU_yu5sat.webp"
+  },
+  {
+    "id": 141,
+    "nombre": "Maní con Cascara",
+    "precio": 2300,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Maní, Girasol,Pasas de Uva Rubias y Negras,Almendras ,Castañas ,Nuez, Miel y Coco.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625129/-M7pIbaoUTjMF1UHk8qU_yu5sat.webp"
+  },
+  {
+    "id": 142,
+    "nombre": "Maní Tostado Salado",
+    "precio": 1850,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "descripcion": "Es una opción deliciosa y satisfactoria para aquellos que disfrutan de sabores salados en sus aperitivos. El maní tostado con sal también ofrece beneficios nutricionales, ya que es una buena fuente de proteínas, fibra y minerales como potasio, magnesio y fósforo. ",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625275/descarga_1_5_hpvk4u.webp"
+  },
+  {
+    "id": 143,
+    "nombre": "Pistacho Salado con Cascara",
+    "precio": 4190,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Los pistachos tostados y salados son un snack popular que combina el sabor tostado y crujiente de los pistachos con el toque salado. Son una buena fuente de nutrientes y se pueden disfrutar como aperitivo o incorporarse en diversas recetas. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625354/-MK1DwdHZ-zqaxurGvbZ_nqwzbs.webp"
+  },
+  {
+    "id": 144,
+    "nombre": "Pistacho Salado con Cascara",
+    "precio": 15850,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Los pistachos tostados y salados son un snack popular que combina el sabor tostado y crujiente de los pistachos con el toque salado. Son una buena fuente de nutrientes y se pueden disfrutar como aperitivo o incorporarse en diversas recetas. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625354/-MK1DwdHZ-zqaxurGvbZ_nqwzbs.webp"
+  },
+  {
+    "id": 145,
+    "nombre": "Maíz frito clasico",
+    "precio": 1425,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Es un alimento crujiente y sabroso.  Se consume como aperitivo, en picadas o incluso añadido a ensaladas para darles textura.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625447/-Mv-XxL9q-CpfocGDy85_zo17nf.webp"
+  },
+  {
+    "id": 146,
+    "nombre": "Maíz frito clasico",
+    "precio": 5320,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Es un alimento crujiente y sabroso.  Se consume como aperitivo, en picadas o incluso añadido a ensaladas para darles textura.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625447/-Mv-XxL9q-CpfocGDy85_zo17nf.webp"
+  },
+  {
+    "id": 147,
+    "nombre": "Maní sin sal",
+    "precio": 480,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El maní sin sal es un alimento altamente nutritivo que ofrece varios beneficios para la salud. Es rico en grasas saludables, proteínas, fibra, vitaminas y minerales, y puede ayudar a reducir el colesterol y mejorar la salud cardiovascular. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625520/-MuXEaw_83FuA91M0UIr_bw11bn.webp"
+  },
+  {
+    "id": 148,
+    "nombre": "Maní sin sal",
+    "precio": 1792,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El maní sin sal es un alimento altamente nutritivo que ofrece varios beneficios para la salud. Es rico en grasas saludables, proteínas, fibra, vitaminas y minerales, y puede ayudar a reducir el colesterol y mejorar la salud cardiovascular. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625520/-MuXEaw_83FuA91M0UIr_bw11bn.webp"
+  },
+  {
+    "id": 149,
+    "nombre": "Pasas de uva rubias",
+    "precio": 910,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Las pasas rubias, también conocidas como pasas doradas, son uvas blancas deshidratadas que adquieren un color amarillo o dorado ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625587/-M7pCdmHXoMQohd046Rk_evqbbs.webp"
+  },
+  {
+    "id": 150,
+    "nombre": "Pasas de uva rubias",
+    "precio": 3480,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Las pasas rubias, también conocidas como pasas doradas, son uvas blancas deshidratadas que adquieren un color amarillo o dorado ",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625587/-M7pCdmHXoMQohd046Rk_evqbbs.webp",
+    "cantidad": "400gr"
+  },
+  {
+    "id": 151,
+    "nombre": "Pasas de uva Jumbo",
+    "precio": 765,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Son uvas negras secas, deshidratadas, ya que se dejan a secar hasta que queda un fruto dulce. Se denominan «jumbo» dado que su tamaño es un poco mayor que la sultanina.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625667/-M7pC5ICdI04Bt-_ZqV0_wvhq4p.webp"
+  },
+  {
+    "id": 152,
+    "nombre": "Pasas de uva Jumbo",
+    "precio": 2880,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Son uvas negras secas, deshidratadas, ya que se dejan a secar hasta que queda un fruto dulce. Se denominan «jumbo» dado que su tamaño es un poco mayor que la sultanina.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625667/-M7pC5ICdI04Bt-_ZqV0_wvhq4p.webp"
+  },
+  {
+    "id": 153,
+    "nombre": "Chip de Banana",
+    "precio": 1270,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Los chips de banana, también conocidos como plátano deshidratado, son un snack crujiente y sabroso hecho al deshidratar rodajas finas de banana. Son una buena fuente de potasio, fibra y vitaminas B y C. Se pueden disfrutar solos como un snack saludable o agregarse a granola o mezclas de frutos secos. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625731/-M7pFyIxMH6K3hkmoMvN_ubojsu.webp"
+  },
+  {
+    "id": 154,
+    "nombre": "Chip de Banana",
+    "precio": 4880,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Los chips de banana, también conocidos como plátano deshidratado, son un snack crujiente y sabroso hecho al deshidratar rodajas finas de banana. Son una buena fuente de potasio, fibra y vitaminas B y C. Se pueden disfrutar solos como un snack saludable o agregarse a granola o mezclas de frutos secos. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625731/-M7pFyIxMH6K3hkmoMvN_ubojsu.webp"
+  },
+  {
+    "id": 155,
+    "nombre": "Higos",
+    "precio": 1275,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Los higos desecados, también conocidos como higos secos, son higos frescos que han sido sometidos a un proceso de deshidratación para reducir su contenido de agua. Esto permite una mayor concentración de nutrientes y un sabor más dulce y masticable. Los higos secos son una excelente fuente de energía, fibra, potasio, calcio y magnesio. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625793/-M7pE25DSGsrXAgrm7Ap_uvdsqg.webp"
+  },
+  {
+    "id": 156,
+    "nombre": "Higos",
+    "precio": 4800,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Los higos desecados, también conocidos como higos secos, son higos frescos que han sido sometidos a un proceso de deshidratación para reducir su contenido de agua. Esto permite una mayor concentración de nutrientes y un sabor más dulce y masticable. Los higos secos son una excelente fuente de energía, fibra, potasio, calcio y magnesio. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625793/-M7pE25DSGsrXAgrm7Ap_uvdsqg.webp"
+  },
+  {
+    "id": 157,
+    "nombre": "Ciruelas",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "new": true,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751222408/-M7pBVi4Mgy9YbZ_b5if_oxsiy6.webp",
+    "descripcion": "Las ciruelas pasas, también llamadas ciruelas desecadas, son ciruelas que han sido deshidratadas para prolongar su vida útil y concentrar sus nutrientes. Son una excelente fuente de fibra, vitaminas y minerales, y ofrecen diversos beneficios para la salud, como ayudar a aliviar el estreñimiento y mejorar la salud ósea.  ",
+    "precio": 1040
+  },
+  {
+    "id": 158,
+    "nombre": "Ciruelas",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "new": false,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751222408/-M7pBVi4Mgy9YbZ_b5if_oxsiy6.webp",
+    "descripcion": "Las ciruelas pasas, también llamadas ciruelas desecadas, son ciruelas que han sido deshidratadas para prolongar su vida útil y concentrar sus nutrientes. Son una excelente fuente de fibra, vitaminas y minerales, y ofrecen diversos beneficios para la salud, como ayudar a aliviar el estreñimiento y mejorar la salud ósea.  ",
+    "precio": 3900
+  },
+  {
+    "id": 159,
+    "nombre": "Mix de frutas disecadas",
+    "precio": 6145,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Durazno, pera, damasco y ciruelas.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752625872/-M7osHDzlz7btwJo__W6_xsrq8k.webp"
+  },
+  {
+    "id": 160,
+    "nombre": "Sésamo Blanco",
+    "precio": 1100,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El sésamo blanco es conocido por su sabor a nuez, y por sus propiedades nutricionales, incluyendo grasas saludables, proteínas, fibra, y vitaminas y minerales como calcio, hierro, magnesio y zinc",
+    "cantidad": "100g",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626038/-M7p8Vnvotd5RzMzgZfJ_ycllhr.webp"
+  },
+  {
+    "id": 161,
+    "nombre": "Sésamo Blanco",
+    "precio": 4000,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El sésamo blanco es conocido por su sabor a nuez, y por sus propiedades nutricionales, incluyendo grasas saludables, proteínas, fibra, y vitaminas y minerales como calcio, hierro, magnesio y zinc",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626038/-M7p8Vnvotd5RzMzgZfJ_ycllhr.webp"
+  },
+  {
+    "id": 162,
+    "nombre": "Semilla Girasol Pelado",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "descripcion": "Ayudan a proteger las células del cuerpo, contribuyen a la salud ósea y muscular, pueden ayudar a reducir el colesterol malo, favorecen la salud de la piel y pueden ayudar a prevenir enfermedades inflamatorias. ",
+    "precio": 405,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918683/descarga_1_1_oqhv6r.webp"
+  },
+  {
+    "id": 163,
+    "nombre": "Semilla Girasol Pelado",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "descripcion": "Ayudan a proteger las células del cuerpo, contribuyen a la salud ósea y muscular, pueden ayudar a reducir el colesterol malo, favorecen la salud de la piel y pueden ayudar a prevenir enfermedades inflamatorias. ",
+    "precio": 1560,
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918683/descarga_1_1_oqhv6r.webp"
+  },
+  {
+    "id": 164,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "lino chía sésamo girasol",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916078/mix-semillas_bgyab4.webp",
+    "precio": 540,
+    "nombre": "Mix de Semillas"
+  },
+  {
+    "id": 165,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "lino chía sésamo girasol",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916078/mix-semillas_bgyab4.webp",
+    "precio": 1950,
+    "nombre": "Mix de Semillas"
+  },
+  {
+    "id": 166,
+    "nombre": "Sesamo Integral",
+    "precio": 545,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El sésamo integral es una semilla con la cáscara que conserva sus propiedades nutricionales superiores en comparación con el sésamo blanco.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626141/descarga_1_6_souj6f.webp"
+  },
+  {
+    "id": 167,
+    "nombre": "Sesamo Integral",
+    "precio": 2050,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El sésamo integral es una semilla con la cáscara que conserva sus propiedades nutricionales superiores en comparación con el sésamo blanco.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626141/descarga_1_6_souj6f.webp"
+  },
+  {
+    "id": 168,
+    "nombre": "Semilla Lino",
+    "precio": 305,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Las semillas de linaza contienen fibra, vitaminas, minerales, proteínas, grasas vegetales saludables y antioxidantes que ayudan a prevenir el daño celular.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626210/descarga_1_7_utbnxx.webp"
+  },
+  {
+    "id": 169,
+    "nombre": "Semilla Lino",
+    "precio": 1150,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Las semillas de linaza contienen fibra, vitaminas, minerales, proteínas, grasas vegetales saludables y antioxidantes que ayudan a prevenir el daño celular.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626210/descarga_1_7_utbnxx.webp"
+  },
+  {
+    "id": 170,
+    "nombre": "Coco Rallado Premium",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223487/-M7reH6BILwXTvHIXaEr_ddauea.webp",
+    "descripcion": "El coco rallado es un alimento con diversas propiedades nutricionales y beneficios para la salud. Es rico en fibra, grasas saludables, vitaminas y minerales. También es una buena fuente de energía y puede ayudar a mejorar la digestión y la salud cardiovascular. ",
+    "precio": 1230
+  },
+  {
+    "id": 171,
+    "nombre": "Coco Rallado Premium",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223487/-M7reH6BILwXTvHIXaEr_ddauea.webp",
+    "descripcion": "El coco rallado es un alimento con diversas propiedades nutricionales y beneficios para la salud. Es rico en fibra, grasas saludables, vitaminas y minerales. También es una buena fuente de energía y puede ayudar a mejorar la digestión y la salud cardiovascular. ",
+    "precio": 4400
+  },
+  {
+    "id": 172,
+    "nombre": "Cacao Amargo primera calidad",
+    "precio": 2290,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El cacao amargo en polvo ofrece múltiples beneficios para la salud, principalmente gracias a su riqueza en antioxidantes, flavonoides y compuestos bioactivos. Estos componentes pueden ayudar a mejorar la salud cardiovascular, reducir la inflamación, mejorar la función cerebral y el estado de ánimo, entre otros beneficios. ",
+    "cantidad": "100g",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626281/-ManIPb3lJZB6icHTnFA_bxcgfg.webp"
+  },
+  {
+    "id": 173,
+    "nombre": "Cacao Amargo primera calidad",
+    "precio": 8640,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El cacao amargo en polvo ofrece múltiples beneficios para la salud, principalmente gracias a su riqueza en antioxidantes, flavonoides y compuestos bioactivos. Estos componentes pueden ayudar a mejorar la salud cardiovascular, reducir la inflamación, mejorar la función cerebral y el estado de ánimo, entre otros beneficios. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626281/-ManIPb3lJZB6icHTnFA_bxcgfg.webp"
+  },
+  {
+    "id": 174,
+    "nombre": "Azúcar Impalpable",
+    "precio": 300,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El azúcar impalpable, también conocido como azúcar glas o azúcar en polvo, ofrece beneficios principalmente en la repostería y la decoración de postres, debido a su finura y textura suave.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626366/descarga_1_8_j9xuvv.webp"
+  },
+  {
+    "id": 175,
+    "nombre": "Azúcar Impalpable",
+    "precio": 1120,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El azúcar impalpable, también conocido como azúcar glas o azúcar en polvo, ofrece beneficios principalmente en la repostería y la decoración de postres, debido a su finura y textura suave.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626366/descarga_1_8_j9xuvv.webp"
+  },
+  {
+    "id": 176,
+    "nombre": "Azúcar Mascabo",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "descripcion": "Es un tipo de azúcar de caña sin refinar o ligeramente refinado. Se caracteriza por su color marrón oscuro, textura pegajosa y sabor a caramelo. A diferencia del azúcar blanca refinada, el azúcar mascabo conserva algunos nutrientes de la caña de azúcar, como antioxidantes y minerales, aunque en cantidades pequeñas. ",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919853/descarga_1_4_nzkznz.webp",
+    "precio": 425
+  },
+  {
+    "id": 177,
+    "nombre": "Azúcar Mascabo",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "descripcion": "Es un tipo de azúcar de caña sin refinar o ligeramente refinado. Se caracteriza por su color marrón oscuro, textura pegajosa y sabor a caramelo. A diferencia del azúcar blanca refinada, el azúcar mascabo conserva algunos nutrientes de la caña de azúcar, como antioxidantes y minerales, aunque en cantidades pequeñas. ",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919853/descarga_1_4_nzkznz.webp",
+    "precio": 1600
+  },
+  {
+    "id": 178,
+    "nombre": "Sal rosada del Himalaya",
+    "precio": 440,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La sal rosa del Himalaya se promociona por diversos beneficios para la salud, como la regulación de la presión arterial, la prevención de calambres y migrañas, la mejora del sueño y la fortaleza ósea.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626601/descarga_1_9_ggropm.webp"
+  },
+  {
+    "id": 179,
+    "nombre": "Sal rosada del Himalaya",
+    "precio": 1650,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La sal rosa del Himalaya se promociona por diversos beneficios para la salud, como la regulación de la presión arterial, la prevención de calambres y migrañas, la mejora del sueño y la fortaleza ósea.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626601/descarga_1_9_ggropm.webp"
+  },
+  {
+    "id": 180,
+    "nombre": "Bicarbonato de Sodio",
+    "precio": 440,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El bicarbonato de sodio tiene varios beneficios para la salud, incluyendo aliviar la acidez estomacal, reducir la acidez de la orina, y actuar como un exfoliante natural para la piel. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626525/-NDT91nB8PPv9DyAgyKA_wma2ed.webp"
+  },
+  {
+    "id": 181,
+    "nombre": "Bicarbonato de Sodio",
+    "precio": 1690,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El bicarbonato de sodio tiene varios beneficios para la salud, incluyendo aliviar la acidez estomacal, reducir la acidez de la orina, y actuar como un exfoliante natural para la piel. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626525/-NDT91nB8PPv9DyAgyKA_wma2ed.webp"
+  },
+  {
+    "id": 182,
+    "nombre": "polvo de hornear primera calidad",
+    "precio": 1440,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El polvo de hornear, también conocido como levadura química, es un agente leudante que se utiliza en repostería para hacer que las masas y mezclas se eleven y se vuelvan esponjosas.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626689/-NZRlCIVi3La4iERsnWW_iqqfui.webp"
+  },
+  {
+    "id": 183,
+    "nombre": "polvo de hornear primera calidad",
+    "precio": 5400,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El polvo de hornear, también conocido como levadura química, es un agente leudante que se utiliza en repostería para hacer que las masas y mezclas se eleven y se vuelvan esponjosas.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626689/-NZRlCIVi3La4iERsnWW_iqqfui.webp"
+  },
+  {
+    "id": 184,
+    "nombre": "Avena instantánea",
+    "precio": 1080,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919215/-MuuPwdZtww_92LXUQnK_ciu591.webp",
+    "descripcion": "La avena ofrece varios beneficios para la salud, incluyendo la regulación del colesterol y el azúcar en sangre, ayuda a controlar el apetito y puede ser beneficiosa para la salud digestiva. También es rica en nutrientes esenciales y antioxidantes."
+  },
+  {
+    "id": 185,
+    "nombre": "Soja texturizada",
+    "precio": 340,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La soja texturizada ofrece numerosos beneficios, destacando su alto contenido de proteínas, fibra, y su versatilidad en la cocina. Es una excelente opción para personas veganas, vegetarianas, y deportistas, ya que puede ayudar a cubrir necesidades proteicas y de otros nutrientes esenciales como hierro y calcio.",
+    "cantidad": "200gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750917951/-MEDebl-TPboT10ULW1u_iukpj2.webp"
+  },
+  {
+    "id": 186,
+    "nombre": "Soja texturizada",
+    "precio": 1280,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La soja texturizada ofrece numerosos beneficios, destacando su alto contenido de proteínas, fibra, y su versatilidad en la cocina. Es una excelente opción para personas veganas, vegetarianas, y deportistas, ya que puede ayudar a cubrir necesidades proteicas y de otros nutrientes esenciales como hierro y calcio.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750917951/-MEDebl-TPboT10ULW1u_iukpj2.webp"
+  },
+  {
+    "id": 187,
+    "nombre": "Sal marina",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "250gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916989/descarga_1_fqdpee.webp",
+    "descripcion": "La sal marina es una opción natural para condimentar los alimentos, con un perfil de sabor y minerales que la diferencian de la sal de mesa, pero se debe consumir con precaución. ",
+    "precio": 1120
+  },
+  {
+    "id": 188,
+    "nombre": "Sal marina",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "500gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916989/descarga_1_fqdpee.webp",
+    "descripcion": "La sal marina es una opción natural para condimentar los alimentos, con un perfil de sabor y minerales que la diferencian de la sal de mesa, pero se debe consumir con precaución. ",
+    "precio": 2100
+  },
+  {
+    "id": 189,
+    "nombre": "Ajo en polvo",
+    "precio": 1170,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El ajo en polvo, derivado del ajo deshidratado y molido, conserva muchas de las propiedades del ajo fresco, aunque con algunas diferencias en su composición nutricional. Entre sus beneficios se destacan sus propiedades antioxidantes, cardioprotectoras y su capacidad para mejorar la circulación sanguínea.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626833/-O-Hunye7BIMwrOzLWh5_offyfr.webp"
+  },
+  {
+    "id": 190,
+    "nombre": "Ajo en polvo",
+    "precio": 4410,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El ajo en polvo, derivado del ajo deshidratado y molido, conserva muchas de las propiedades del ajo fresco, aunque con algunas diferencias en su composición nutricional. Entre sus beneficios se destacan sus propiedades antioxidantes, cardioprotectoras y su capacidad para mejorar la circulación sanguínea.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626833/-O-Hunye7BIMwrOzLWh5_offyfr.webp"
+  },
+  {
+    "id": 191,
+    "nombre": "Ajo granulado",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223310/-O-HugmLgqCPixgXAQuK_gvptrw.webp",
+    "descripcion": "El ajo Granulado ofrece una alternativa conveniente y duradera al ajo fresco, con beneficios para la salud como el fortalecimiento del sistema inmunológico, propiedades antioxidantes y un posible impacto positivo en la salud cardiovascular.",
+    "precio": 1555
+  },
+  {
+    "id": 192,
+    "nombre": "Ajo granulado",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223310/-O-HugmLgqCPixgXAQuK_gvptrw.webp",
+    "descripcion": "El ajo Granulado ofrece una alternativa conveniente y duradera al ajo fresco, con beneficios para la salud como el fortalecimiento del sistema inmunológico, propiedades antioxidantes y un posible impacto positivo en la salud cardiovascular.",
+    "precio": 5850
+  },
+  {
+    "id": 193,
+    "nombre": "Romero",
+    "precio": 1850,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Romero es conocido por sus propiedades antioxidantes, antiinflamatorias, estimulantes circulatorias y antisépticas, entre otras. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752817671/-O-Huc-1Yy64zGsYMcRb_eh0ife.webp"
+  },
+  {
+    "id": 194,
+    "nombre": "Romero",
+    "precio": 6950,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Romero es conocido por sus propiedades antioxidantes, antiinflamatorias, estimulantes circulatorias y antisépticas, entre otras. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752817671/-O-Huc-1Yy64zGsYMcRb_eh0ife.webp"
+  },
+  {
+    "id": 195,
+    "nombre": "Tomillo",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "descripcion": "Por su aroma y sabor, es muy apreciado para condimentar potajes, carnes, salsas y verduras. También tiene propiedades antisépticas que facilitan la conservación de los alimentos. Tomado en infusión, ayuda en las enfermedades de las vías respiratorias por sus cualidades antinflamatorias.",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918805/descarga_1_2_k0mmhw.webp",
+    "precio": 1660,
+    "new": true
+  },
+  {
+    "id": 196,
+    "nombre": "Tomillo",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "descripcion": "Por su aroma y sabor, es muy apreciado para condimentar potajes, carnes, salsas y verduras. También tiene propiedades antisépticas que facilitan la conservación de los alimentos. Tomado en infusión, ayuda en las enfermedades de las vías respiratorias por sus cualidades antinflamatorias.",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918805/descarga_1_2_k0mmhw.webp",
+    "precio": 6270,
+    "new": false
+  },
+  {
+    "id": 197,
+    "nombre": "Oregano",
+    "precio": 1173,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El orégano posee múltiples propiedades beneficiosas para la salud, destacando sus efectos antibacterianos, antioxidantes y antiinflamatorios. También se le atribuyen propiedades digestivas, expectorantes y beneficios para el sistema óseo. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626965/-NXQ0zEBejN3xPSi8XUv_h2oley.webp"
+  },
+  {
+    "id": 198,
+    "nombre": "Oregano",
+    "precio": 4410,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El orégano posee múltiples propiedades beneficiosas para la salud, destacando sus efectos antibacterianos, antioxidantes y antiinflamatorios. También se le atribuyen propiedades digestivas, expectorantes y beneficios para el sistema óseo. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752626965/-NXQ0zEBejN3xPSi8XUv_h2oley.webp"
+  },
+  {
+    "id": 199,
+    "nombre": "Pimienta Blanca Molida",
+    "precio": 2720,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La pimienta blanca molida es una especia versátil con propiedades que benefician la salud digestiva y pueden ayudar a combatir enfermedades. Entre sus beneficios se encuentran su capacidad para estimular la producción de jugos gástricos, lo que facilita la digestión y alivia problemas como gases e hinchazón.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627036/-NSGan8C-hy__6CO0Yw__apsscy.webp"
+  },
+  {
+    "id": 200,
+    "nombre": "Pimienta Blanca Molida",
+    "precio": 10240,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La pimienta blanca molida es una especia versátil con propiedades que benefician la salud digestiva y pueden ayudar a combatir enfermedades. Entre sus beneficios se encuentran su capacidad para estimular la producción de jugos gástricos, lo que facilita la digestión y alivia problemas como gases e hinchazón.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627036/-NSGan8C-hy__6CO0Yw__apsscy.webp"
+  },
+  {
+    "id": 201,
+    "nombre": "Pimienta Negra molida",
+    "precio": 1870,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919385/-NSGkBTMaDjCj0NeuzIA_oyapdn.webp",
+    "descripcion": "La pimienta negra molida posee numerosas propiedades beneficiosas para la salud, incluyendo propiedades antioxidantes, antiinflamatorias y digestivas. Además, puede ayudar a mejorar la absorción de nutrientes, regular los niveles de azúcar en sangre y promover la pérdida de peso. "
+  },
+  {
+    "id": 202,
+    "nombre": "Pimienta Negra molida",
+    "precio": 7040,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919385/-NSGkBTMaDjCj0NeuzIA_oyapdn.webp",
+    "descripcion": "La pimienta negra molida posee numerosas propiedades beneficiosas para la salud, incluyendo propiedades antioxidantes, antiinflamatorias y digestivas. Además, puede ayudar a mejorar la absorción de nutrientes, regular los niveles de azúcar en sangre y promover la pérdida de peso. "
+  },
+  {
+    "id": 203,
+    "nombre": "Curcuma",
+    "precio": 1870,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918388/-NSGapXWnDvDfQ4KYYQq_sqsyhl.webp",
+    "descripcion": "ELa cúrcuma es una especia con numerosas propiedades beneficiosas para la salud, principalmente debido a la curcumina, un compuesto con potentes efectos antiinflamatorios y antioxidantes. Además de sus propiedades antiinflamatorias, la cúrcuma puede ayudar a la digestión, proteger contra enfermedades cardíacas, mejorar la función cerebral y tener efectos positivos en el estado de ánimo."
+  },
+  {
+    "id": 204,
+    "nombre": "Curcuma",
+    "precio": 7040,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918388/-NSGapXWnDvDfQ4KYYQq_sqsyhl.webp",
+    "descripcion": "ELa cúrcuma es una especia con numerosas propiedades beneficiosas para la salud, principalmente debido a la curcumina, un compuesto con potentes efectos antiinflamatorios y antioxidantes. Además de sus propiedades antiinflamatorias, la cúrcuma puede ayudar a la digestión, proteger contra enfermedades cardíacas, mejorar la función cerebral y tener efectos positivos en el estado de ánimo."
+  },
+  {
+    "id": 205,
+    "nombre": "pimenton",
+    "precio": 1080,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El pimentón ofrece diversos beneficios para la salud gracias a su riqueza en vitaminas y antioxidantes. Es conocido por su alto contenido en vitamina C, vitamina A, vitamina E, y minerales como el potasio, calcio y fósforo. ",
+    "cantidad": "100g",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627140/-NWhDcBsKSpW6xXou5Vi_bhrwfw.webp"
+  },
+  {
+    "id": 206,
+    "nombre": "pimenton",
+    "precio": 4090,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El pimentón ofrece diversos beneficios para la salud gracias a su riqueza en vitaminas y antioxidantes. Es conocido por su alto contenido en vitamina C, vitamina A, vitamina E, y minerales como el potasio, calcio y fósforo. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627140/-NWhDcBsKSpW6xXou5Vi_bhrwfw.webp"
+  },
+  {
+    "id": 207,
+    "nombre": "Provenzal",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "descripcion": "Se utiliza para sazonar carnes, pescados, verduras y otros platos. ",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750917802/descarga_1_w4azkb.webp",
+    "precio": 785
+  },
+  {
+    "id": 208,
+    "nombre": "Provenzal",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "descripcion": "Se utiliza para sazonar carnes, pescados, verduras y otros platos. ",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750917802/descarga_1_w4azkb.webp",
+    "precio": 2945
+  },
+  {
+    "id": 209,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "nombre": "Clavo de olor pedúnculo",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916724/-O-HuT0jkc9Rn2CZbcvN_zl91an.webp",
+    "descripcion": "El clavo de olor pedúnculo es una especia versátil con usos culinarios y medicinales, ofreciendo beneficios como propiedades analgésicas, antibacterianas y estimulantes.",
+    "precio": 2330
+  },
+  {
+    "id": 210,
+    "nombre": "Canela Quebrada",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La canela en rama, además de su aroma y sabor característicos, ofrece varios beneficios para la salud. Entre ellos, se destacan sus propiedades digestivas, antioxidantes, antiinflamatorias y antimicrobianas, además de su potencial efecto positivo en la regulación del azúcar en sangre y la salud cardiovascular. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916547/-O-HuRVg6hPb4ZR8nS0S_kvbsee.webp",
+    "precio": 2040
+  },
+  {
+    "id": 211,
+    "nombre": "Canela Quebrada",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La canela en rama, además de su aroma y sabor característicos, ofrece varios beneficios para la salud. Entre ellos, se destacan sus propiedades digestivas, antioxidantes, antiinflamatorias y antimicrobianas, además de su potencial efecto positivo en la regulación del azúcar en sangre y la salud cardiovascular. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750916547/-O-HuRVg6hPb4ZR8nS0S_kvbsee.webp",
+    "precio": 7680
+  },
+  {
+    "id": 212,
+    "nombre": "Canela en polvo",
+    "precio": 15000,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La canela en polvo ofrece una variedad de beneficios para la salud, incluyendo la mejora de la digestión, la regulación del azúcar en sangre y la promoción de la salud cardiovascular. También tiene propiedades antioxidantes y antiinflamatorias, y puede ayudar a mejorar la función cognitiva. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627249/canela-de-ceylan-molida-25g4-a6bc9b335bfc5da47615716231335931-1024-10241-1dfcf96b7938529a1f16514585083613-640-0_i9ptgd.webp"
+  },
+  {
+    "id": 213,
+    "nombre": "Canela en polvo",
+    "precio": 8000,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La canela en polvo ofrece una variedad de beneficios para la salud, incluyendo la mejora de la digestión, la regulación del azúcar en sangre y la promoción de la salud cardiovascular. También tiene propiedades antioxidantes y antiinflamatorias, y puede ayudar a mejorar la función cognitiva. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627249/canela-de-ceylan-molida-25g4-a6bc9b335bfc5da47615716231335931-1024-10241-1dfcf96b7938529a1f16514585083613-640-0_i9ptgd.webp"
+  },
+  {
+    "id": 214,
+    "nombre": "Ají Molido",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223845/-NSGak8OsP-M9IHLHOzw_bhcbex.webp",
+    "descripcion": "El ají molido, una especia en polvo hecha de chiles secos, ofrece varios beneficios para la salud debido a sus compuestos activos. Es rico en vitamina C y antioxidantes, que ayudan a proteger las células del daño oxidativo. Además, contiene capsaicina, conocida por sus propiedades antiinflamatorias, analgésicas y su potencial para aumentar el metabolismo y favorecer la pérdida de peso.",
+    "precio": 1170
+  },
+  {
+    "id": 215,
+    "nombre": "Ají Molido",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751223845/-NSGak8OsP-M9IHLHOzw_bhcbex.webp",
+    "descripcion": "El ají molido, una especia en polvo hecha de chiles secos, ofrece varios beneficios para la salud debido a sus compuestos activos. Es rico en vitamina C y antioxidantes, que ayudan a proteger las células del daño oxidativo. Además, contiene capsaicina, conocida por sus propiedades antiinflamatorias, analgésicas y su potencial para aumentar el metabolismo y favorecer la pérdida de peso.",
+    "precio": 4410
+  },
+  {
+    "id": 216,
+    "nombre": "Curry picante",
+    "precio": 2090,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El curry ofrece varios beneficios para la salud debido a su combinación de especias, incluyendo propiedades antioxidantes, antiinflamatorias, y digestivas. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627361/-O-HuKv5yuGd0aiXwogE_jvzdjj.webp"
+  },
+  {
+    "id": 217,
+    "nombre": "Curry picante",
+    "precio": 7870,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El curry ofrece varios beneficios para la salud debido a su combinación de especias, incluyendo propiedades antioxidantes, antiinflamatorias, y digestivas. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627361/-O-HuKv5yuGd0aiXwogE_jvzdjj.webp"
+  },
+  {
+    "id": 218,
+    "nombre": "Condimento para pizza",
+    "precio": 900,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Condimento para pizza.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627480/-O-HuIjTYlKMDOTWFCp__mjiwjm.webp"
+  },
+  {
+    "id": 219,
+    "nombre": "Condimento para pizza",
+    "precio": 3390,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Condimento para pizza.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627480/-O-HuIjTYlKMDOTWFCp__mjiwjm.webp"
+  },
+  {
+    "id": 220,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919456/-N42pQ_mBHAoIEAWcZK6_i1zowj.webp",
+    "nombre": "Maní con chocolate premium",
+    "descripcion": "Maní con chocolate premium es una deliciosa combinación de maníes seleccionados cubiertos con chocolate de alta calidad",
+    "precio": 3070,
+    "new": true
+  },
+  {
+    "id": 221,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750919456/-N42pQ_mBHAoIEAWcZK6_i1zowj.webp",
+    "nombre": "Maní con chocolate premium",
+    "descripcion": "Maní con chocolate premium es una deliciosa combinación de maníes seleccionados cubiertos con chocolate de alta calidad",
+    "precio": 11480,
+    "new": false
+  },
+  {
+    "id": 222,
+    "nombre": "Almendras con chocolate",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918264/-N42ovwCe_nHoBovWjR5_zve4g6.webp",
+    "descripcion": " La almendra con chocolate negro es una almendra de primera calidad cubierta de un exquisito chocolate negro.",
+    "precio": 4320
+  },
+  {
+    "id": 223,
+    "nombre": "Almendras con chocolate",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1750918264/-N42ovwCe_nHoBovWjR5_zve4g6.webp",
+    "descripcion": " La almendra con chocolate negro es una almendra de primera calidad cubierta de un exquisito chocolate negro.",
+    "precio": 16380
+  },
+  {
+    "id": 224,
+    "nombre": "almendra con chocolate blanco",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751224837/-NWhCV5Y-M0Yk0qe3FT4_xubboq.webp",
+    "descripcion": "La almendra con chocolate blanco es una almendra de primera calidad cubierta de un exquisito chocolate blanco.",
+    "precio": 4320
+  },
+  {
+    "id": 225,
+    "nombre": "almendra con chocolate blanco",
+    "categoria": "indumentaria",
+    "stock": 25,
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1751224837/-NWhCV5Y-M0Yk0qe3FT4_xubboq.webp",
+    "descripcion": "La almendra con chocolate blanco es una almendra de primera calidad cubierta de un exquisito chocolate blanco.",
+    "precio": 16380
+  },
+  {
+    "id": 226,
+    "nombre": "Pasas de uva con chocolate.",
+    "precio": 3580,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Las pasas con chocolate combinan los beneficios de las uvas pasas con las propiedades antioxidantes del chocolate. Las pasas son ricas en fibra, potasio, hierro y antioxidantes, mientras que el chocolate, especialmente el negro, también aporta antioxidantes y puede mejorar la circulación. Juntos, ofrecen una opción de snack con un aporte nutricional interesante y un sabor agradable. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627577/-N42lX8QARzIYClkqCR3_ckg9wz.webp"
+  },
+  {
+    "id": 227,
+    "nombre": "Pasas de uva con chocolate.",
+    "precio": 13520,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Las pasas con chocolate combinan los beneficios de las uvas pasas con las propiedades antioxidantes del chocolate. Las pasas son ricas en fibra, potasio, hierro y antioxidantes, mientras que el chocolate, especialmente el negro, también aporta antioxidantes y puede mejorar la circulación. Juntos, ofrecen una opción de snack con un aporte nutricional interesante y un sabor agradable. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752627577/-N42lX8QARzIYClkqCR3_ckg9wz.webp"
+  },
+  {
+    "id": 228,
+    "nombre": "Maca Roja Peruana",
+    "precio": 1800,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La maca roja, una variedad de la raíz de maca, se destaca por sus propiedades adaptogénicas y su potencial beneficio para la salud ósea y hormonal, especialmente en mujeres durante la menopausia.",
+    "cantidad": "90gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752638239/-NWc6umki0thRqT-Ym7g_gfioz3.webp"
+  },
+  {
+    "id": 229,
+    "nombre": "Maca Negra",
+    "precio": 2550,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La maca negra es un tubérculo andino conocido por sus propiedades energizantes y revitalizantes. Se utiliza tradicionalmente para mejorar la resistencia física, la libido y la función cognitiva. Además, se le atribuyen beneficios para el equilibrio hormonal y la salud reproductiva. ",
+    "cantidad": "160gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752638379/-NAeATV5To2i8GSB5Ow6_o6ktdv.webp"
+  },
+  {
+    "id": 230,
+    "nombre": "Maca peruana",
+    "precio": 2850,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "La maca peruana es rica en nutrientes y se le atribuyen propiedades como el aumento de la energía,",
+    "cantidad": "500gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752638517/-MuuLKnCrM7QEw0grWy6_kulzkx.webp"
+  },
+  {
+    "id": 231,
+    "nombre": "Té Verde en hebras",
+    "precio": 375,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El té verde en hebras posee numerosas propiedades beneficiosas para la salud, destacando su riqueza en antioxidantes y polifenoles. Estos compuestos ayudan a proteger el cuerpo contra enfermedades cardiovasculares, reducen el colesterol malo y pueden tener efectos protectores contra el cáncer. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752638658/-NVjS7m1PuXZZJXX-VLX_al4f6d.webp"
+  },
+  {
+    "id": 232,
+    "nombre": "Té Verde en hebras",
+    "precio": 1410,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El té verde en hebras posee numerosas propiedades beneficiosas para la salud, destacando su riqueza en antioxidantes y polifenoles. Estos compuestos ayudan a proteger el cuerpo contra enfermedades cardiovasculares, reducen el colesterol malo y pueden tener efectos protectores contra el cáncer. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752638658/-NVjS7m1PuXZZJXX-VLX_al4f6d.webp"
+  },
+  {
+    "id": 233,
+    "nombre": "Té Verde en hebras",
+    "precio": 3300,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El té verde en hebras posee numerosas propiedades beneficiosas para la salud, destacando su riqueza en antioxidantes y polifenoles. Estos compuestos ayudan a proteger el cuerpo contra enfermedades cardiovasculares, reducen el colesterol malo y pueden tener efectos protectores contra el cáncer. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752638658/-NVjS7m1PuXZZJXX-VLX_al4f6d.webp"
+  },
+  {
+    "id": 234,
+    "nombre": "Té Negro en hebras",
+    "precio": 375,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El té negro en hebras, además de su sabor robusto y aroma característico, posee diversas propiedades beneficiosas para la salud. Entre ellas se destacan su efecto estimulante gracias a la teína, su poder antioxidante por la presencia de polifenoles y flavonoides, y sus posibles beneficios para la salud cardiovascular y digestiva.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639004/-NVjR27kCt4QFgvaiMxd_togilf.webp"
+  },
+  {
+    "id": 235,
+    "nombre": "Té Negro en hebras",
+    "precio": 1410,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El té negro en hebras, además de su sabor robusto y aroma característico, posee diversas propiedades beneficiosas para la salud. Entre ellas se destacan su efecto estimulante gracias a la teína, su poder antioxidante por la presencia de polifenoles y flavonoides, y sus posibles beneficios para la salud cardiovascular y digestiva.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639004/-NVjR27kCt4QFgvaiMxd_togilf.webp"
+  },
+  {
+    "id": 236,
+    "nombre": "Té Negro en hebras",
+    "precio": 3300,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El té negro en hebras, además de su sabor robusto y aroma característico, posee diversas propiedades beneficiosas para la salud. Entre ellas se destacan su efecto estimulante gracias a la teína, su poder antioxidante por la presencia de polifenoles y flavonoides, y sus posibles beneficios para la salud cardiovascular y digestiva.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639004/-NVjR27kCt4QFgvaiMxd_togilf.webp"
+  },
+  {
+    "id": 237,
+    "nombre": "Té Rojo en hebras",
+    "precio": 375,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El té rojo en hebras, también conocido como Pu-erh, ofrece varios beneficios para la salud. Entre ellos, se destacan su ayuda en la digestión de comidas grasas, su capacidad para desintoxicar el cuerpo y favorecer la función hepática. Además, se le atribuyen propiedades antioxidantes, beneficios para el control del colesterol, y efectos positivos en la concentración y reducción del estrés. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639160/-NVjP2az9WH45MLhiwKd_z2vms3.webp"
+  },
+  {
+    "id": 238,
+    "nombre": "Té Rojo en hebras",
+    "precio": 1410,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El té rojo en hebras, también conocido como Pu-erh, ofrece varios beneficios para la salud. Entre ellos, se destacan su ayuda en la digestión de comidas grasas, su capacidad para desintoxicar el cuerpo y favorecer la función hepática. Además, se le atribuyen propiedades antioxidantes, beneficios para el control del colesterol, y efectos positivos en la concentración y reducción del estrés. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639160/-NVjP2az9WH45MLhiwKd_z2vms3.webp"
+  },
+  {
+    "id": 239,
+    "nombre": "Té Rojo en hebras",
+    "precio": 3300,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El té rojo en hebras, también conocido como Pu-erh, ofrece varios beneficios para la salud. Entre ellos, se destacan su ayuda en la digestión de comidas grasas, su capacidad para desintoxicar el cuerpo y favorecer la función hepática. Además, se le atribuyen propiedades antioxidantes, beneficios para el control del colesterol, y efectos positivos en la concentración y reducción del estrés. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639160/-NVjP2az9WH45MLhiwKd_z2vms3.webp"
+  },
+  {
+    "id": 240,
+    "nombre": "Garbanzos enteros",
+    "precio": 2850,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Los garbanzos ofrecen numerosos beneficios para la salud, incluyendo la mejora del tránsito intestinal, la reducción del colesterol, la regulación del azúcar en sangre y el fortalecimiento de huesos y músculos. Son ricos en fibra, proteínas, vitaminas y minerales esenciales. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639440/-NTxdrUyHWDTP3aSmD-y_ngfm2v.webp"
+  },
+  {
+    "id": 241,
+    "nombre": "Garbanzos enteros",
+    "precio": 1250,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "Los garbanzos ofrecen numerosos beneficios para la salud, incluyendo la mejora del tránsito intestinal, la reducción del colesterol, la regulación del azúcar en sangre y el fortalecimiento de huesos y músculos. Son ricos en fibra, proteínas, vitaminas y minerales esenciales. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639440/-NTxdrUyHWDTP3aSmD-y_ngfm2v.webp"
+  },
+  {
+    "id": 242,
+    "nombre": "Maíz Pisingallo",
+    "precio": 1800,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El maíz pisingallo, también conocido como maíz palomero o pochoclero, es una variedad de maíz utilizada para hacer palomitas de maíz.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639600/-NfpPJClQPYire6_H3XX_c4c1i5.webp"
+  },
+  {
+    "id": 243,
+    "nombre": "Maíz Pisingallo",
+    "precio": 765,
+    "categoria": "indumentaria",
+    "stock": 25,
+    "descripcion": "El maíz pisingallo, también conocido como maíz palomero o pochoclero, es una variedad de maíz utilizada para hacer palomitas de maíz.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639600/-NfpPJClQPYire6_H3XX_c4c1i5.webp"
+  },
+  {
+    "id": 244,
+    "nombre": "Paprika",
+    "precio": 1530,
+    "categoria": "Especies",
+    "stock": 25,
+    "descripcion": "La paprika, también conocida como pimentón, es una especia derivada de pimientos secos molidos, y ofrece una variedad de beneficios para la salud. Es rica en antioxidantes, como carotenoides, que ayudan a proteger contra el daño celular y reducir el estrés oxidativo.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639823/-NSGaredR9ZffUbynq1K_ykwtra.webp"
+  },
+  {
+    "id": 245,
+    "nombre": "Paprika",
+    "precio": 5760,
+    "categoria": "Especies",
+    "stock": 25,
+    "descripcion": "La paprika, también conocida como pimentón, es una especia derivada de pimientos secos molidos, y ofrece una variedad de beneficios para la salud. Es rica en antioxidantes, como carotenoides, que ayudan a proteger contra el daño celular y reducir el estrés oxidativo.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639823/-NSGaredR9ZffUbynq1K_ykwtra.webp"
+  },
+  {
+    "id": 246,
+    "nombre": "Paprika",
+    "precio": 13500,
+    "categoria": "Especies",
+    "stock": 25,
+    "descripcion": "La paprika, también conocida como pimentón, es una especia derivada de pimientos secos molidos, y ofrece una variedad de beneficios para la salud. Es rica en antioxidantes, como carotenoides, que ayudan a proteger contra el daño celular y reducir el estrés oxidativo.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752639823/-NSGaredR9ZffUbynq1K_ykwtra.webp"
+  },
+  {
+    "id": 247,
+    "nombre": "Fécula de mandioca Monte Carlo sin T.A.C.C",
+    "precio": 3750,
+    "categoria": "Especies",
+    "stock": 25,
+    "descripcion": "La fécula de mandioca, también conocida como almidón de yuca o tapioca, es un polvo blanco y fino derivado de la raíz de la mandioca. Se utiliza comúnmente como espesante en la cocina y es apreciada por su capacidad para absorber humedad y formar una pasta viscosa al calentarse. Es un ingrediente versátil en diversas preparaciones, como panes, tortas, salsas y guisos, y es especialmente valorada en la cocina sin gluten por ser apta para celíacos. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752640059/-NfpPOpfW9ahV85Kmphx_xtwfzs.webp"
+  },
+  {
+    "id": 248,
+    "nombre": "Copos sin azúcar",
+    "precio": 500,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Los copos de maíz sin azúcar ofrecen varios beneficios para la salud, principalmente debido a su bajo contenido de azúcar y alta fibra. Son una opción más saludable para el desayuno o la merienda, ya que ayudan a controlar los niveles de azúcar en sangre, promueven la salud digestiva y pueden contribuir a la pérdida de peso.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752645707/-N923Mqxz8KfJJLb8ooC_x4aeza.webp"
+  },
+  {
+    "id": 249,
+    "nombre": "Copos sin azúcar",
+    "precio": 1900,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Los copos de maíz sin azúcar ofrecen varios beneficios para la salud, principalmente debido a su bajo contenido de azúcar y alta fibra. Son una opción más saludable para el desayuno o la merienda, ya que ayudan a controlar los niveles de azúcar en sangre, promueven la salud digestiva y pueden contribuir a la pérdida de peso.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752645707/-N923Mqxz8KfJJLb8ooC_x4aeza.webp"
+  },
+  {
+    "id": 250,
+    "nombre": "Copos sin azúcar",
+    "precio": 4500,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Los copos de maíz sin azúcar ofrecen varios beneficios para la salud, principalmente debido a su bajo contenido de azúcar y alta fibra. Son una opción más saludable para el desayuno o la merienda, ya que ayudan a controlar los niveles de azúcar en sangre, promueven la salud digestiva y pueden contribuir a la pérdida de peso.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752645707/-N923Mqxz8KfJJLb8ooC_x4aeza.webp"
+  },
+  {
+    "id": 251,
+    "nombre": "Copos azucarados",
+    "precio": 695,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Copos azucarados.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646002/-N922uzHd4nPsATGNQFa_dytrck.webp"
+  },
+  {
+    "id": 252,
+    "nombre": "Copos azucarados",
+    "precio": 2610,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Copos azucarados.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646002/-N922uzHd4nPsATGNQFa_dytrck.webp"
+  },
+  {
+    "id": 253,
+    "nombre": "Copos azucarados",
+    "precio": 6070,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Copos azucarados.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646002/-N922uzHd4nPsATGNQFa_dytrck.webp"
+  },
+  {
+    "id": 254,
+    "nombre": "Quinoa Pop Gluten free",
+    "precio": 885,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Contiene fibra favoreciendo la regulación del transito intestinal y a su vez, aporta aminoácidos esenciales, lo que mejora el aporte proteico para incorporar en el desayuno y la merienda. Su calidad nutricional lo convierte en un alimento completo, práctico y delicioso para cualquier edad.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646310/-N929FCBgTZ40wcQsoNo_n1thj9.webp"
+  },
+  {
+    "id": 255,
+    "nombre": "Quinoa Pop Gluten free",
+    "precio": 3340,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Contiene fibra favoreciendo la regulación del transito intestinal y a su vez, aporta aminoácidos esenciales, lo que mejora el aporte proteico para incorporar en el desayuno y la merienda. Su calidad nutricional lo convierte en un alimento completo, práctico y delicioso para cualquier edad.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646310/-N929FCBgTZ40wcQsoNo_n1thj9.webp"
+  },
+  {
+    "id": 256,
+    "nombre": "Quinoa Pop Gluten free",
+    "precio": 7750,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Contiene fibra favoreciendo la regulación del transito intestinal y a su vez, aporta aminoácidos esenciales, lo que mejora el aporte proteico para incorporar en el desayuno y la merienda. Su calidad nutricional lo convierte en un alimento completo, práctico y delicioso para cualquier edad.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646310/-N929FCBgTZ40wcQsoNo_n1thj9.webp"
+  },
+  {
+    "id": 257,
+    "nombre": "Quinoa Pop sabor Arandanos Gluten free",
+    "precio": 885,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Contiene fibra favoreciendo la regulación del transito intestinal y a su vez, aporta aminoácidos esenciales, lo que mejora el aporte proteico para incorporar en el desayuno y la merienda. Su calidad nutricional lo convierte en un alimento completo, práctico y delicioso para cualquier edad.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646635/descarga_1_10_bqhjut.webp"
+  },
+  {
+    "id": 258,
+    "nombre": "Quinoa Pop sabor Arandanos Gluten free",
+    "precio": 3340,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Contiene fibra favoreciendo la regulación del transito intestinal y a su vez, aporta aminoácidos esenciales, lo que mejora el aporte proteico para incorporar en el desayuno y la merienda. Su calidad nutricional lo convierte en un alimento completo, práctico y delicioso para cualquier edad.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646635/descarga_1_10_bqhjut.webp"
+  },
+  {
+    "id": 259,
+    "nombre": "Quinoa Pop sabor Arandanos Gluten free",
+    "precio": 7750,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Contiene fibra favoreciendo la regulación del transito intestinal y a su vez, aporta aminoácidos esenciales, lo que mejora el aporte proteico para incorporar en el desayuno y la merienda. Su calidad nutricional lo convierte en un alimento completo, práctico y delicioso para cualquier edad.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646635/descarga_1_10_bqhjut.webp"
+  },
+  {
+    "id": 260,
+    "nombre": "Trigo inflado",
+    "precio": 930,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "El trigo inflado, también conocido como trigo inflado o trigo hinchado, ofrece varios beneficios para la salud debido a su alto contenido de fibra, nutrientes y bajo contenido de grasas saturadas, además de ser regulador del azúcar y fácil de digerir.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646808/-N924Nq5EdxN3_bhojkV_b1opsb.webp"
+  },
+  {
+    "id": 261,
+    "nombre": "Trigo inflado",
+    "precio": 3520,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "El trigo inflado, también conocido como trigo inflado o trigo hinchado, ofrece varios beneficios para la salud debido a su alto contenido de fibra, nutrientes y bajo contenido de grasas saturadas, además de ser regulador del azúcar y fácil de digerir.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646808/-N924Nq5EdxN3_bhojkV_b1opsb.webp"
+  },
+  {
+    "id": 262,
+    "nombre": "Trigo inflado",
+    "precio": 8250,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "El trigo inflado, también conocido como trigo inflado o trigo hinchado, ofrece varios beneficios para la salud debido a su alto contenido de fibra, nutrientes y bajo contenido de grasas saturadas, además de ser regulador del azúcar y fácil de digerir.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752646808/-N924Nq5EdxN3_bhojkV_b1opsb.webp"
+  },
+  {
+    "id": 263,
+    "nombre": "Arroz inflado",
+    "precio": 930,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "El arroz inflado ofrece varios beneficios para la salud, incluyendo ser bajo en calorías y grasas, una buena fuente de carbohidratos complejos, y favorecer la digestión. Además, puede ayudar en la pérdida de peso, regular la presión arterial y fortalecer los huesos. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752647020/-N928v21Z1u1eo9Sad39_zf0mlq.webp"
+  },
+  {
+    "id": 264,
+    "nombre": "Arroz inflado",
+    "precio": 3520,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "El arroz inflado ofrece varios beneficios para la salud, incluyendo ser bajo en calorías y grasas, una buena fuente de carbohidratos complejos, y favorecer la digestión. Además, puede ayudar en la pérdida de peso, regular la presión arterial y fortalecer los huesos. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752647020/-N928v21Z1u1eo9Sad39_zf0mlq.webp"
+  },
+  {
+    "id": 265,
+    "nombre": "Arroz inflado",
+    "precio": 8250,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "El arroz inflado ofrece varios beneficios para la salud, incluyendo ser bajo en calorías y grasas, una buena fuente de carbohidratos complejos, y favorecer la digestión. Además, puede ayudar en la pérdida de peso, regular la presión arterial y fortalecer los huesos. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752647020/-N928v21Z1u1eo9Sad39_zf0mlq.webp"
+  },
+  {
+    "id": 266,
+    "nombre": "Tutuca dulce",
+    "precio": 595,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "La tutuca con azúcar es un snack popular en Argentina, especialmente entre los niños. Consiste en maíz inflado, similar al pochoclo, pero con un recubrimiento de azúcar. ",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752647322/TUTUCA.png_1_zswrd0.webp"
+  },
+  {
+    "id": 267,
+    "nombre": "Tutuca dulce",
+    "precio": 2240,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "La tutuca con azúcar es un snack popular en Argentina, especialmente entre los niños. Consiste en maíz inflado, similar al pochoclo, pero con un recubrimiento de azúcar. ",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752647322/TUTUCA.png_1_zswrd0.webp"
+  },
+  {
+    "id": 268,
+    "nombre": "Tutuca dulce",
+    "precio": 5250,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "La tutuca con azúcar es un snack popular en Argentina, especialmente entre los niños. Consiste en maíz inflado, similar al pochoclo, pero con un recubrimiento de azúcar. ",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752647322/TUTUCA.png_1_zswrd0.webp"
+  },
+  {
+    "id": 269,
+    "nombre": "Tutuca con edulcorante",
+    "precio": 850,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Las tutucas con edulcorante pueden ser una opción más saludable que las tutucas tradicionales endulzadas con azúcar, ya que reducen la ingesta de azúcares añadidos.",
+    "cantidad": "100gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752647322/TUTUCA.png_1_zswrd0.webp"
+  },
+  {
+    "id": 270,
+    "nombre": "Tutuca con edulcorante",
+    "precio": 3200,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Las tutucas con edulcorante pueden ser una opción más saludable que las tutucas tradicionales endulzadas con azúcar, ya que reducen la ingesta de azúcares añadidos.",
+    "cantidad": "400gr",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752647322/TUTUCA.png_1_zswrd0.webp"
+  },
+  {
+    "id": 271,
+    "nombre": "Tutuca con edulcorante",
+    "precio": 7500,
+    "categoria": "Cereales",
+    "stock": 25,
+    "descripcion": "Las tutucas con edulcorante pueden ser una opción más saludable que las tutucas tradicionales endulzadas con azúcar, ya que reducen la ingesta de azúcares añadidos.",
+    "cantidad": "1kg",
+    "img": "https://res.cloudinary.com/dwit77ikq/image/upload/v1752647322/TUTUCA.png_1_zswrd0.webp"
+  }
+]
