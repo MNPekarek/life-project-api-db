@@ -53,6 +53,34 @@ productRouter.get(
   })
 );
 
+// Filtrar productos por nombre
+productRouter.get("/search", asyncHandler(async (req, res) => {
+  const { title = "", limit = 10, page = 1 } = req.query;
+  const regex = new RegExp(title, "i"); //case-insensitive
+  const data = await Product.paginate({ title: regex }, { limit, page });
+  const products = data.docs;
+  delete data.docs;
+
+  res.status(200).json({ status: "success", payload: products, ...data });
+}));
+
+//Filter
+productRouter.get("/filter", asyncHandler(async (req, res) => {
+  const { title = "", category, minStock = 0, limit = 10, page = 1 } = req.query;
+
+  const query = {
+    ...(title && { title: new RegExp(title, "i") }),
+    ...(category && { category }),
+    stock: { $gte: minStock }
+  };
+
+  const data = await Product.paginate(query, { limit, page });
+  const products = data.docs;
+  delete data.docs;
+
+  res.status(200).json({ status: "success", payload: products, ...data });
+}));
+
 // POST
 productRouter.post(
   "/",
