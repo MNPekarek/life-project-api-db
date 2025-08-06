@@ -42,7 +42,9 @@ export const getProducts = asyncHandler(async (req, res) => {
 export const getVariantsByTitle = asyncHandler(async (req, res) => {
   const { title } = req.params;
 
-  const variants = await Product.find({ title });
+  const variants = await Product.find({ 
+    title: { $regex: `^${title}$`, $options: "i" }
+   });
 
   if (!variants || variants.length === 0) {
     return res.status(200).json({ payload: [] });
