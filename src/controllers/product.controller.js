@@ -25,14 +25,28 @@ export const getProducts = asyncHandler(async (req, res) => {
     if ( maxPrice) query.price.$lte = Number(maxPrice);
   }
 
+  // Validar campos permitidos para ordenamiento
+  const allowedSortFields = ["price", "title", "createdAt"];
   const sortOptions = {};
-  if (sortBy) sortOptions(sortBy) = order === "desc" ? -1 : 1;
+  if (sortBy && allowedSortFields.includes(sortBy)) {
+    sortOptions[sortBy] = order === "desc" ? -1 : 1;
+  }
 
   const data = await Product.paginate(query, { 
     page: Number(page),
     limit: Number(limit),
     sort: sortOptions,  
   });
+
+  if (data.docs.length === 0) {
+    return res.status(200).json({
+      status: "success",
+      payload: [],
+      totalPages: 1,
+      currentPage: Number(page),
+      message: "No se encontraron productos con los filtros aplicados",
+    });
+  }
 
   res.status(200).json({ status: "success", payload: data.docs, totalPages: data.totalPages || 1, currentPage: data.page,
   });

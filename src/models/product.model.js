@@ -3,7 +3,7 @@ import paginate  from "mongoose-paginate-v2";
 
 const productSchema = new mongoose.Schema({
     title: { type: String },
-    description: { type: String, index: "text" },
+    description: { type: String},
     thumbnail: { type: String, default: "" },
     code: { type: String, unique: true},
     price: Number,
@@ -16,6 +16,11 @@ const productSchema = new mongoose.Schema({
         default: Date.now()
     }
 }, { collection: "products" });
+
+productSchema.index({ title: "text", description: "text" });
+productSchema.index({ price: 1 });
+productSchema.index({ created_at: -1 });
+
 
 productSchema.plugin(paginate);
 
