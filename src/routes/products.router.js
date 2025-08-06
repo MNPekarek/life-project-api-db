@@ -10,6 +10,8 @@ import {
   deleteProduct,
   getVariantsByTitle,
 } from "../controllers/product.controller.js";
+   
+
 
 const productRouter = express.Router();
 
