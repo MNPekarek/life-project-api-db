@@ -20,6 +20,7 @@ export const getProducts = asyncHandler(async (req, res) => {
   if (category) query.category = category;
   if (search) query.title = { $regex: search, $options: "i" };
   if (minPrice || maxPrice) {
+    query.price = {};
     if (minPrice) query.price.$gte = Number(minPrice);
     if ( maxPrice) query.price.$lte = Number(maxPrice);
   }
@@ -36,6 +37,20 @@ export const getProducts = asyncHandler(async (req, res) => {
   res.status(200).json({ status: "success", payload: data.docs, totalPages: data.totalPages || 1, currentPage: data.page,
   });
 });
+
+// GET cantidades por title
+export const getVariantsByTitle = asyncHandler(async (req, res) => {
+  const { title } = req.params;
+
+  const variants = await Product.find({ title });
+
+  if (!variants || variants.length === 0) {
+    return res.status(200).json({ payload: [] });
+  }
+
+  res.status(200).json({ payload: variants });
+});
+
 
 // Buscar por nombre
 export const searchProducts = asyncHandler(async (req, res) => {
