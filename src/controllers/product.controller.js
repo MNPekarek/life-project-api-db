@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 
 // Obtener todos los productos
 export const getProducts = asyncHandler(async (req, res) => {
-  const { 
+  const {
     category,
     search,
     page = 1,
@@ -12,17 +12,24 @@ export const getProducts = asyncHandler(async (req, res) => {
     minPrice,
     maxPrice,
     sortBy,
-    order = "asc"
-     } = req.query;
+    order = "asc",
+  } = req.query;
 
   const query = {};
 
   if (category && category !== "all") query.category = category;
-  if (search && search.trim() !== "") query.title = { $regex: search.trim(), $options: "i" };
+  if (search && search.trim() !== "") {
+    const regex = { $regex: search.trim(), $options: "i" };
+    query.$or = [
+      { nombre: regex },
+      { descripcion: regex },
+      { categoria: regex },
+    ];
+  }
   if (minPrice || maxPrice) {
     query.price = {};
     if (minPrice) query.price.$gte = Number(minPrice);
-    if ( maxPrice) query.price.$lte = Number(maxPrice);
+    if (maxPrice) query.price.$lte = Number(maxPrice);
   }
 
   // Validar campos permitidos para ordenamiento
@@ -32,10 +39,10 @@ export const getProducts = asyncHandler(async (req, res) => {
     sortOptions[sortBy] = order === "desc" ? -1 : 1;
   }
 
-  const data = await Product.paginate(query, { 
+  const data = await Product.paginate(query, {
     page: Number(page),
     limit: Number(limit),
-    sort: Object.keys(sortOptions).length ? sortOptions : { created_at: -1 },  
+    sort: Object.keys(sortOptions).length ? sortOptions : { created_at: -1 },
   });
 
   if (data.docs.length === 0) {
@@ -48,17 +55,23 @@ export const getProducts = asyncHandler(async (req, res) => {
     });
   }
 
-  res.status(200).json({ status: "success", payload: data.docs, totalPages: data.totalPages || 1, currentPage: data.page,
-  });
+  res
+    .status(200)
+    .json({
+      status: "success",
+      payload: data.docs,
+      totalPages: data.totalPages || 1,
+      currentPage: data.page,
+    });
 });
 
 // GET cantidades por title
 export const getVariantsByTitle = asyncHandler(async (req, res) => {
   const { title } = req.params;
 
-  const variants = await Product.find({ 
-    title: { $regex: `^${title}$`, $options: "i" }
-   });
+  const variants = await Product.find({
+    title: { $regex: `^${title}$`, $options: "i" },
+  });
 
   if (!variants || variants.length === 0) {
     return res.status(200).json({ payload: [] });
@@ -67,9 +80,7 @@ export const getVariantsByTitle = asyncHandler(async (req, res) => {
   res.status(200).json({ payload: variants });
 });
 
-// por favor anda 
-
-
+// por favor anda
 
 // Buscar por nombre
 export const searchProducts = asyncHandler(async (req, res) => {
@@ -84,12 +95,18 @@ export const searchProducts = asyncHandler(async (req, res) => {
 
 // Filtrar por múltiples criterios
 export const filterProducts = asyncHandler(async (req, res) => {
-  const { title = "", category, minStock = 0, limit = 10, page = 1 } = req.query;
+  const {
+    title = "",
+    category,
+    minStock = 0,
+    limit = 10,
+    page = 1,
+  } = req.query;
 
   const query = {
     ...(title && { title: new RegExp(title, "i") }),
     ...(category && { category }),
-    stock: { $gte: minStock }
+    stock: { $gte: minStock },
   };
 
   const data = await Product.paginate(query, { limit, page });
@@ -126,7 +143,9 @@ export const getProductById = asyncHandler(async (req, res) => {
   const product = await Product.findById(pid);
 
   if (!product)
-    return res.status(404).json({ status: "error", message: "Producto no encontrado" });
+    return res
+      .status(404)
+      .json({ status: "error", message: "Producto no encontrado" });
 
   res.status(200).json({ status: "success", payload: product });
 });
@@ -150,7 +169,9 @@ export const updateProduct = asyncHandler(async (req, res) => {
   const updated = await Product.findByIdAndUpdate(pid, req.body, { new: true });
 
   if (!updated)
-    return res.status(404).json({ status: "error", message: "Producto no encontrado" });
+    return res
+      .status(404)
+      .json({ status: "error", message: "Producto no encontrado" });
 
   res.status(200).json({ status: "success", payload: updated });
 });
@@ -166,7 +187,9 @@ export const deleteProduct = asyncHandler(async (req, res) => {
   const deleted = await Product.findByIdAndDelete(pid);
 
   if (!deleted)
-    return res.status(404).json({ status: "error", message: "Producto no encontrado" });
+    return res
+      .status(404)
+      .json({ status: "error", message: "Producto no encontrado" });
 
   res.status(200).json({ status: "success", message: "Producto eliminado" });
 });
