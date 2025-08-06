@@ -17,8 +17,8 @@ export const getProducts = asyncHandler(async (req, res) => {
 
   const query = {};
 
-  if (category) query.category = category;
-  if (search) query.title = { $regex: search, $options: "i" };
+  if (category && category !== "all") query.category = category;
+  if (search && search.trim() !== "") query.title = { $regex: search.trim(), $options: "i" };
   if (minPrice || maxPrice) {
     query.price = {};
     if (minPrice) query.price.$gte = Number(minPrice);
@@ -26,7 +26,7 @@ export const getProducts = asyncHandler(async (req, res) => {
   }
 
   // Validar campos permitidos para ordenamiento
-  const allowedSortFields = ["price", "title", "createdAt"];
+  const allowedSortFields = ["price", "title", "created_at"];
   const sortOptions = {};
   if (sortBy && allowedSortFields.includes(sortBy)) {
     sortOptions[sortBy] = order === "desc" ? -1 : 1;
@@ -35,7 +35,7 @@ export const getProducts = asyncHandler(async (req, res) => {
   const data = await Product.paginate(query, { 
     page: Number(page),
     limit: Number(limit),
-    sort: sortOptions,  
+    sort: Object.keys(sortOptions).length ? sortOptions : { created_at: -1 },  
   });
 
   if (data.docs.length === 0) {
