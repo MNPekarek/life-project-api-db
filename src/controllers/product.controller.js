@@ -3,13 +3,38 @@ import asyncHandler from "../middlewares/asyncHandler.js";
 import mongoose from "mongoose";
 
 // Obtener todos los productos
-export const getAllProducts = asyncHandler(async (req, res) => {
-  const { limit = 10, page = 1 } = req.query;
-  const data = await Product.paginate({}, { limit, page });
-  const products = data.docs;
-  delete data.docs;
+export const getProducts = asyncHandler(async (req, res) => {
+  const { 
+    category,
+    search,
+    page = 1,
+    limit = 10,
+    minPrice,
+    maxPrice,
+    sortBy,
+    order = "asc"
+     } = req.query;
 
-  res.status(200).json({ status: "success", payload: products, ...data });
+  const query = {};
+
+  if (category) query.category = category;
+  if (search) query.title = { $regex: search, $options: "i" };
+  if (minPrice || maxPrice) {
+    if (minPrice) query.price.$gte = Number(minPrice);
+    if ( maxPrice) query.price.$lte = Number(maxPrice);
+  }
+
+  const sortOptions = {};
+  if (sortBy) sortOptions(sortBy) = order === "desc" ? -1 : 1;
+
+  const data = await Product.paginate(query, { 
+    page: Number(page),
+    limit: Number(limit),
+    sort: sortOptions,  
+  });
+
+  res.status(200).json({ status: "success", payload: data.docs, totalPages: data.totalPages || 1, currentPage: data.page,
+  });
 });
 
 // Buscar por nombre
@@ -41,20 +66,20 @@ export const filterProducts = asyncHandler(async (req, res) => {
 });
 
 // Filtrar por categoría
-export const getProductsByCategory = asyncHandler(async (req, res) => {
-  const { limit = 10, page = 1 } = req.query;
-  const category = req.params.category;
-  const query = category ? { category } : {};
+// export const getProductsByCategory = asyncHandler(async (req, res) => {
+//   const { limit = 10, page = 1 } = req.query;
+//   const category = req.params.category;
+//   const query = category ? { category } : {};
 
-  const data = await Product.paginate(query, { limit, page });
-  const products = data.docs;
-  delete data.docs;
+//   const data = await Product.paginate(query, { limit, page });
+//   const products = data.docs;
+//   delete data.docs;
 
-  if (!products || products.length === 0)
-    return res.status(404).json({ status: "error", message: "Categoría no encontrada" });
+//   if (!products || products.length === 0)
+//     return res.status(404).json({ status: "error", message: "Categoría no encontrada" });
 
-  res.status(200).json({ status: "success", payload: products });
-});
+//   res.status(200).json({ status: "success", payload: products });
+// });
 
 // Obtener por ID
 export const getProductById = asyncHandler(async (req, res) => {

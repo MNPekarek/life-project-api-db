@@ -1,9 +1,9 @@
 import express from "express";
 import {
-  getAllProducts,
+  getProducts,
   searchProducts,
   filterProducts,
-  getProductsByCategory,
+  // getProductsByCategory,
   getProductById,
   createProduct,
   updateProduct,
@@ -13,10 +13,10 @@ import {
 const productRouter = express.Router();
 
 // /api/products
-productRouter.get("/", getAllProducts);
+productRouter.get("/", getProducts);
 productRouter.get("/search", searchProducts);
 productRouter.get("/filter", filterProducts);
-productRouter.get("/category/:category", getProductsByCategory);
+// productRouter.get("/category/:category", getProductsByCategory);
 productRouter.get("/:pid", getProductById);
 
 // Escritura
