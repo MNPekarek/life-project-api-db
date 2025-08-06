@@ -21,9 +21,9 @@ export const getProducts = asyncHandler(async (req, res) => {
   if (search && search.trim() !== "") {
     const regex = { $regex: search.trim(), $options: "i" };
     query.$or = [
-      { nombre: regex },
-      { descripcion: regex },
-      { categoria: regex },
+      { title: regex },
+      { description: regex },
+      { category: regex },
     ];
   }
   if (minPrice || maxPrice) {
