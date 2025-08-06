@@ -52,7 +52,7 @@ export const getVariantsByTitle = asyncHandler(async (req, res) => {
 
   res.status(200).json({ payload: variants });
 });
-
+// nuevos cambios
 
 // Buscar por nombre
 export const searchProducts = asyncHandler(async (req, res) => {
