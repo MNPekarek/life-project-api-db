@@ -60,7 +60,7 @@ export const exportOrdersCSV = async (req, res) => {
   try {
     const orders = await OrderModel.find().lean();
 
-    const fields = ["_id", "cliente", "status", "total", "createdAt"];
+    const fields = ["_id", "customerName", "status", "total", "createdAt"];
     const parser = new Parser({ fields });
     const csv = parser.parse(orders);
 

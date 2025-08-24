@@ -37,7 +37,7 @@ app.use((req, res, next) => {
   error.status = 404;
   next(error);
 });
-app.post("/api/orders", ordersRoutes);
+app.use("/api/orders", ordersRoutes);
 
 app.use(errorHandler); // maneja los errores globales
 
