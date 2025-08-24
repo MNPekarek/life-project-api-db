@@ -9,6 +9,7 @@ import cartRouter from "./routes/cart.router.js";
 import logger from "./middlewares/logger.js"
 import errorHandler from "./middlewares/errorHandler.js"
 import cors from "cors";
+import OrderModel from "./models/OrderModel.js";
 
 const app = express();
 const server = http.createServer(app);
@@ -36,6 +37,17 @@ app.use((req, res, next) => {
   error.status = 404;
   next(error);
 });
+app.post("/api/orders", async (req, res) => {
+  try {
+    const newOrder = new OrderModel(req.body);
+    await newOrder.save();
+    res.status(201).json({ message: "Pedido guardado" });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Error al guardar el pedido" });
+  }
+});
+
 app.use(errorHandler); // maneja los errores globales
 
 
