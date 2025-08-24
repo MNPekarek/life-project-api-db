@@ -32,12 +32,12 @@ app.get("/", (req, res) => {
 });
 app.use("/api/products", productRouter);
 app.use("/api/carts", cartRouter)
+app.use("/api/orders", ordersRoutes);
 app.use((req, res, next) => {
   const error = new Error(`Ruta no encontrada: ${req.originalUrl}`);
   error.status = 404;
   next(error);
 });
-app.use("/api/orders", ordersRoutes);
 
 app.use(errorHandler); // maneja los errores globales
 
