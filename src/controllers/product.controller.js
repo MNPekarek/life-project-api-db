@@ -1,6 +1,7 @@
 import Product from "../models/product.model.js";
 import asyncHandler from "../middlewares/asyncHandler.js";
 import mongoose from "mongoose";
+import { generateNextCode } from "../utils/codeGenerator.js";
 
 // Obtener todos los productos
 export const getProducts = asyncHandler(async (req, res) => {
@@ -152,9 +153,9 @@ export const getProductById = asyncHandler(async (req, res) => {
 
 // Crear producto
 export const createProduct = asyncHandler(async (req, res) => {
-  const lastProduct = await Product.findOne().sort({ code: -1 });
+  const lastProduct = await Product.findOne().sort({ created_at: -1 });
 
-  const nextCode = (parseInt(lastProduct?.code || "0", 10) + 1).toString();
+  const nextCode = generateNextCode(lastProduct?.code);
 
   const newProduct = new Product ({
     ...req.body,
