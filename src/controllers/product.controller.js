@@ -152,7 +152,14 @@ export const getProductById = asyncHandler(async (req, res) => {
 
 // Crear producto
 export const createProduct = asyncHandler(async (req, res) => {
-  const newProduct = new Product(req.body);
+  const lastProduct = await Product.findOne().sort({ code: -1 });
+
+  const nextCode = (parseInt(lastProduct?.code || "0", 10) + 1).toString();
+
+  const newProduct = new Product ({
+    ...req.body,
+    code: nextCode,
+  });
   const saved = await newProduct.save();
 
   res.status(201).json({ status: "success", payload: saved });
