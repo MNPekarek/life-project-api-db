@@ -1,4 +1,4 @@
-import Product from "../models/product.model";
+import Product from "../models/product.model.js";
 
 export async function generateNextCode(lastCode = "code-0") {
   const match = lastCode?.match(/^([a-zA-Z\-]+)(\d+)$/);
