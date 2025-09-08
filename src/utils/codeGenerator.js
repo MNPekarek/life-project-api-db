@@ -1,15 +1,19 @@
-export function generateNextCode(lastCode = "code-0") {
-  const match = lastCode.match(/^([a-zA-Z\-]+)(\d+)$/);
-  if (!match) {
-    console.warn("[CODE GEN] Formato no reconocido:", lastCode);
-    return "code-1";
-  }
+import Product from "../models/product.model";
 
-  const prefix = match[1];
-  const number = parseInt(match[2], 10);
-  const nextNumber = number + 1;
+export async function generateNextCode(lastCode = "code-0") {
+  const match = lastCode?.match(/^([a-zA-Z\-]+)(\d+)$/);
+  const prefix = match?.[1] || "code-";
+  const baseNumber = match ? parseInt(match[2], 10) : 0;
 
-  const nextCode = `${prefix}${nextNumber}`;
+  let nextNumber = baseNumber + 1;
+  let nextCode = `${prefix}${nextNumber}`;
+
+//   verifica si ya existe
+while (await Product.exists({ code: nextCode })) {
+    nextNumber++;
+    nextCode = `${prefix}${nextNumber}`;
+}
+
   console.log(`[CODE GEN] ${lastCode} → ${nextCode}`);
   return nextCode;
 }
