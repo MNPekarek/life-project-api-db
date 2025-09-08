@@ -155,7 +155,7 @@ export const getProductById = asyncHandler(async (req, res) => {
 export const createProduct = asyncHandler(async (req, res) => {
   const lastProduct = await Product.findOne().sort({ created_at: -1 });
 
-  const nextCode = generateNextCode(lastProduct?.code);
+  const nextCode = await generateNextCode(lastProduct?.code);
 
   const newProduct = new Product ({
     ...req.body,
