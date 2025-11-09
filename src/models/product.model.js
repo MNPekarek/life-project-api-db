@@ -13,7 +13,7 @@ const productSchema = new mongoose.Schema({
     status: { type: Boolean, default: true },
     created_at: {
         type: Date,
-        default: Date.now()
+        default: Date.now
     }
 }, { collection: "products" });
 

@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import { generateNextCode } from "../utils/codeGenerator.js";
 
 // Obtener todos los productos
+// ✅ Obtener todos los productos con filtros, búsqueda y orden
 export const getProducts = asyncHandler(async (req, res) => {
   const {
     category,
@@ -12,40 +13,49 @@ export const getProducts = asyncHandler(async (req, res) => {
     limit = 10,
     minPrice,
     maxPrice,
-    sortBy,
-    order = "asc",
+    sortBy = "created_at",
+    order = "desc",
   } = req.query;
 
   const query = {};
 
-  if (category && category !== "all") query.category = category;
+  // 🔍 Filtro por categoría (sin distinción de mayúsculas/minúsculas)
+  if (category && category !== "all") {
+    query.category = { $regex: new RegExp(category, "i") };
+  }
+
+  // 🔍 Filtro por texto (título, descripción o categoría)
   if (search && search.trim() !== "") {
     const regex = { $regex: search.trim(), $options: "i" };
-    query.$or = [
-      { title: regex },
-      { description: regex },
-      { category: regex },
-    ];
+    query.$or = [{ title: regex }, { description: regex }, { category: regex }];
   }
+
+  // 💰 Filtro por rango de precios
   if (minPrice || maxPrice) {
     query.price = {};
     if (minPrice) query.price.$gte = Number(minPrice);
     if (maxPrice) query.price.$lte = Number(maxPrice);
   }
 
-  // Validar campos permitidos para ordenamiento
+  // ⚙️ Validar campos permitidos para ordenamiento
   const allowedSortFields = ["price", "title", "created_at"];
   const sortOptions = {};
-  if (sortBy && allowedSortFields.includes(sortBy)) {
+
+  if (allowedSortFields.includes(sortBy)) {
     sortOptions[sortBy] = order === "desc" ? -1 : 1;
+  } else {
+    // 🕓 fallback por fecha de creación (más reciente primero)
+    sortOptions.created_at = -1;
   }
 
+  // 📄 Paginación + orden dinámico
   const data = await Product.paginate(query, {
     page: Number(page),
     limit: Number(limit),
-    sort: Object.keys(sortOptions).length ? sortOptions : { created_at: -1 },
+    sort: sortOptions,
   });
 
+  // 🚫 Si no hay resultados, enviar vacío (sin error)
   if (data.docs.length === 0) {
     return res.status(200).json({
       status: "success",
@@ -56,15 +66,15 @@ export const getProducts = asyncHandler(async (req, res) => {
     });
   }
 
-  res
-    .status(200)
-    .json({
-      status: "success",
-      payload: data.docs,
-      totalPages: data.totalPages || 1,
-      currentPage: data.page,
-    });
+  // ✅ Respuesta normal
+  res.status(200).json({
+    status: "success",
+    payload: data.docs,
+    totalPages: data.totalPages || 1,
+    currentPage: data.page,
+  });
 });
+
 
 // GET cantidades por title
 export const getVariantsByTitle = asyncHandler(async (req, res) => {
