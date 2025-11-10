@@ -10,6 +10,7 @@ import logger from "./middlewares/logger.js"
 import errorHandler from "./middlewares/errorHandler.js"
 import cors from "cors";
 import ordersRoutes from "./routes/order.router.js";
+import statsRouter from "./routes/stats.router.js";
 
 const app = express();
 const server = http.createServer(app);
@@ -33,6 +34,7 @@ app.get("/", (req, res) => {
 app.use("/api/products", productRouter);
 app.use("/api/carts", cartRouter)
 app.use("/api/orders", ordersRoutes);
+app.use("/api/stats", statsRouter);
 app.use((req, res, next) => {
   const error = new Error(`Ruta no encontrada: ${req.originalUrl}`);
   error.status = 404;

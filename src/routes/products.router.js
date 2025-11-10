@@ -9,6 +9,8 @@ import {
   updateProduct,
   deleteProduct,
   getVariantsByTitle,
+  getFeaturedProducts,
+  getOfferProducts,
 } from "../controllers/product.controller.js";
    
 
@@ -22,6 +24,9 @@ productRouter.get("/filter", filterProducts);
 // productRouter.get("/category/:category", getProductsByCategory);
 productRouter.get("/:pid", getProductById);
 productRouter.get("/variants/:title", getVariantsByTitle);
+
+productRouter.get("/featured", getFeaturedProducts);
+productRouter.get("/offers", getOfferProducts);
 
 // Escritura
 productRouter.post("/", createProduct);

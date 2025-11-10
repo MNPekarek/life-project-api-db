@@ -1,29 +1,30 @@
 import mongoose from "mongoose";
-import paginate  from "mongoose-paginate-v2";
+import paginate from "mongoose-paginate-v2";
 
 const productSchema = new mongoose.Schema({
-    title: { type: String },
-    description: { type: String},
-    thumbnail: { type: String, default: "" },
-    code: { type: String, unique: true},
-    price: Number,
-    stock: Number,
-    quantity: {type: String } ,
-    category: { type: String, index: true },
-    status: { type: Boolean, default: true },
-    created_at: {
-        type: Date,
-        default: Date.now
-    }
+  title: { type: String, required: true },
+  description: String,
+  thumbnail: { type: String, default: "" },
+  code: { type: String, unique: true },
+  price: { type: Number, required: true },
+  stock: { type: Number, default: 0 },
+  quantity: String,
+  category: { type: String, index: true },
+  status: { type: Boolean, default: true },
+  featured: { type: Boolean, default: false },   // ⭐ NUEVO
+  offer: {                                       // 🔥 NUEVO
+    active: { type: Boolean, default: false },
+    discount: { type: Number, default: 0 },      // % de descuento
+    expiresAt: { type: Date, default: null },
+  },
+  created_at: {
+    type: Date,
+    default: Date.now
+  }
 }, { collection: "products" });
 
 productSchema.index({ title: "text", description: "text" });
-productSchema.index({ price: 1 });
-productSchema.index({ created_at: -1 });
-
-
 productSchema.plugin(paginate);
 
 const Product = mongoose.model("Product", productSchema);
-
 export default Product;

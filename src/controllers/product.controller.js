@@ -13,60 +13,39 @@ export const getProducts = asyncHandler(async (req, res) => {
     limit = 10,
     minPrice,
     maxPrice,
-    sortBy = "created_at",
-    order = "desc",
+    sortBy,
+    order = "asc",
+    featured,
+    offer
   } = req.query;
 
   const query = {};
 
-  // 🔍 Filtro por categoría (sin distinción de mayúsculas/minúsculas)
-  if (category && category !== "all") {
-    query.category = { $regex: new RegExp(category, "i") };
-  }
-
-  // 🔍 Filtro por texto (título, descripción o categoría)
-  if (search && search.trim() !== "") {
+  if (category && category !== "all") query.category = category;
+  if (featured === "true") query.featured = true;
+  if (offer === "true") query["offer.active"] = true;
+  if (search?.trim()) {
     const regex = { $regex: search.trim(), $options: "i" };
     query.$or = [{ title: regex }, { description: regex }, { category: regex }];
   }
-
-  // 💰 Filtro por rango de precios
   if (minPrice || maxPrice) {
     query.price = {};
     if (minPrice) query.price.$gte = Number(minPrice);
     if (maxPrice) query.price.$lte = Number(maxPrice);
   }
 
-  // ⚙️ Validar campos permitidos para ordenamiento
   const allowedSortFields = ["price", "title", "created_at"];
   const sortOptions = {};
-
-  if (allowedSortFields.includes(sortBy)) {
+  if (sortBy && allowedSortFields.includes(sortBy)) {
     sortOptions[sortBy] = order === "desc" ? -1 : 1;
-  } else {
-    // 🕓 fallback por fecha de creación (más reciente primero)
-    sortOptions.created_at = -1;
   }
 
-  // 📄 Paginación + orden dinámico
   const data = await Product.paginate(query, {
     page: Number(page),
     limit: Number(limit),
-    sort: sortOptions,
+    sort: Object.keys(sortOptions).length ? sortOptions : { created_at: -1 },
   });
 
-  // 🚫 Si no hay resultados, enviar vacío (sin error)
-  if (data.docs.length === 0) {
-    return res.status(200).json({
-      status: "success",
-      payload: [],
-      totalPages: 1,
-      currentPage: Number(page),
-      message: "No se encontraron productos con los filtros aplicados",
-    });
-  }
-
-  // ✅ Respuesta normal
   res.status(200).json({
     status: "success",
     payload: data.docs,
@@ -74,6 +53,20 @@ export const getProducts = asyncHandler(async (req, res) => {
     currentPage: data.page,
   });
 });
+
+// productos destacados
+export const getFeaturedProducts = asyncHandler(async (req, res) => {
+  const featured = await Product.find({ featured: true }).limit(8);
+  res.status(200).json({ status: "success", payload: featured });
+});
+
+// Ofertas
+export const getOfferProducts = asyncHandler(async (req, res) => {
+  const offers = await Product.find({ "offer.active": true }).limit(8);
+  res.status(200).json({ status: "success", payload: offers });
+});
+
+
 
 
 // GET cantidades por title
