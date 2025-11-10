@@ -13,6 +13,47 @@ export const createOrder = async (req, res) => {
   }
 };
 
+// ✅ Actualizar estado de pedido
+export const updateOrderStatus = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { status } = req.body;
+
+    const updatedOrder = await OrderModel.findByIdAndUpdate(
+      id,
+      { status },
+      { new: true }
+    );
+
+    if (!updatedOrder) {
+      return res.status(404).json({ error: "Pedido no encontrado" });
+    }
+
+    res.status(200).json(updatedOrder);
+  } catch (err) {
+    console.error("Error al actualizar pedido:", err);
+    res.status(500).json({ error: "Error al actualizar el pedido" });
+  }
+};
+
+// ✅ Eliminar pedido
+export const deleteOrder = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const deleted = await OrderModel.findByIdAndDelete(id);
+    if (!deleted) {
+      return res.status(404).json({ error: "Pedido no encontrado" });
+    }
+
+    res.status(200).json({ message: "Pedido eliminado correctamente" });
+  } catch (err) {
+    console.error("Error al eliminar pedido:", err);
+    res.status(500).json({ error: "Error al eliminar el pedido" });
+  }
+};
+
+
 // Obtener todos los pedidos
 export const getOrders = async (req, res) => {
   try {
